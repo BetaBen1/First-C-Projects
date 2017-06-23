@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : Variables.cpp
+// Author      : Ben Hardin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int numberCats = 5;
+int numberDogs = 7;
+
+void totalAnimals(){
+
+	int totalAnimals = 0;
+	totalAnimals += numberCats;
+	totalAnimals += numberDogs;
+
+	cout << "Total number of animals: " << totalAnimals << endl;
+
+}
+
+int main() {
+
+
+	cout << "Number of cats: " << numberCats << endl;
+	cout << "Number of dogs: " << numberDogs << endl;
+
+	totalAnimals();
+
+	cout << "New dog acquired!" << endl;
+
+	numberDogs = numberDogs + 1;
+
+	cout << "New number of dogs: " << numberDogs << endl;
+
+	totalAnimals();
+
+	return 0;
+}
+

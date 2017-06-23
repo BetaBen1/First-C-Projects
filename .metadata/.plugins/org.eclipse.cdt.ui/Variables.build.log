@@ -1,0 +1,15 @@
+19:12:37 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+
+19:12:38 Build Finished (took 383ms)
+

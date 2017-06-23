@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Variables.cpp
+// Author      : Ben Hardin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int numberCats = 5;
+
+	cout << "Hello" << endl;
+
+	return 0;
+}

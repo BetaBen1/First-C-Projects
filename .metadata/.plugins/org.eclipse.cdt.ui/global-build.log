@@ -1,0 +1,384 @@
+17:57:47 **** Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+17:57:53 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:02:05 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+18:02:16 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+18:15:38 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+18:15:40 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:20:28 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+18:20:34 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:21:00 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:21:08 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:21:17 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+Building file: ../src/Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello World.d" -MT"src/Hello\ World.d" -o "src/Hello World.o" "../src/Hello World.cpp"
+Finished building: ../src/Hello World.cpp
+ 
+Building target: Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "Hello World"  ./src/Hello\ World.o   
+Finished building target: Hello World
+ 
+18:21:26 **** Incremental Build of configuration Debug for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:32:55 **** Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:33:05 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+18:33:16 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:33:42 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:38:45 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+../src/Outputting Text.cpp:9:35: error: expected ';' after expression
+        cout << "This is some more text." endl;
+                                         ^
+                                         ;
+../src/Outputting Text.cpp:9:36: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cout << "This is some more text." endl;
+                                          ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [src/Outputting Text.o] Error 1
+18:39:00 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:40:34 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:43:03 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:43:14 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+Building file: ../src/Outputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Outputting Text.d" -MT"src/Outputting\ Text.d" -o "src/Outputting Text.o" "../src/Outputting Text.cpp"
+Finished building: ../src/Outputting Text.cpp
+ 
+Building target: Outputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Outputting Text"  ./src/Outputting\ Text.o   
+Finished building target: Outputting Text
+ 
+18:51:52 **** Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+../src/Variables.cpp:14:6: warning: unused variable 'numberCats' [-Wunused-variable]
+        int numberCats = 5;
+            ^
+1 warning generated.
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+18:51:53 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:51:54 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:55:34 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+18:55:37 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:57:50 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:57:54 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+18:58:52 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+18:59:33 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+18:59:35 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+19:00:51 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+19:02:12 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+19:02:28 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+../src/Variables.cpp:21:41: error: use of undeclared identifier 'totalAnimals'
+        cout << "Total number of animals: " << totalAnimals() << endl;
+                                               ^
+1 error generated.
+make: *** [src/Variables.o] Error 1
+19:04:27 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+19:12:07 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+../src/Variables.cpp:34:14: error: called object type 'int' is not a function or function pointer
+        ++numberCats();
+          ~~~~~~~~~~^
+../src/Variables.cpp:37:2: warning: expression result unused [-Wunused-value]
+        printTotalAnimals;
+        ^~~~~~~~~~~~~~~~~
+../src/Variables.cpp:41:14: error: called object type 'int' is not a function or function pointer
+        ++numberDogs();
+          ~~~~~~~~~~^
+../src/Variables.cpp:44:2: warning: expression result unused [-Wunused-value]
+        printTotalAnimals;
+        ^~~~~~~~~~~~~~~~~
+2 warnings and 2 errors generated.
+make: *** [src/Variables.o] Error 1
+19:12:25 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+../src/Variables.cpp:37:2: warning: expression result unused [-Wunused-value]
+        printTotalAnimals;
+        ^~~~~~~~~~~~~~~~~
+../src/Variables.cpp:44:2: warning: expression result unused [-Wunused-value]
+        printTotalAnimals;
+        ^~~~~~~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+19:12:37 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+Building file: ../src/Variables.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Variables.d" -MT"src/Variables.o" -o "src/Variables.o" "../src/Variables.cpp"
+Finished building: ../src/Variables.cpp
+ 
+Building target: Variables
+Invoking: MacOS X C++ Linker
+g++  -o "Variables"  ./src/Variables.o   
+Finished building target: Variables
+ 
+19:14:00 **** Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+19:14:01 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
