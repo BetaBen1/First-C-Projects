@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Floating.cpp
+// Author      : Ben Hardin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+
+	float fValue = 76.4;
+	cout << "Size of fValue: " << sizeof(fValue) << endl;
+	cout << "Size of float: " << sizeof(float) << endl;
+	cout << setprecision(20) << fixed << fValue << endl;
+
+	return 0;
+}

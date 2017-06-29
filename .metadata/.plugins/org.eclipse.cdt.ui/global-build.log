@@ -556,3 +556,240 @@ make: Nothing to be done for `all'.
 18:30:02 **** Incremental Build of configuration Debug for project Inputting Text ****
 make all 
 make: Nothing to be done for `all'.
+18:44:25 **** Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:44:27 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:44:45 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:44:52 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:44:55 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:46:41 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:46:58 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:47:40 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:49:51 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:51:04 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:52:11 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:52:42 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+18:56:32 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+18:56:57 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+19:01:02 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:01:03 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+19:02:28 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:03:06 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:06:04 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:06:38 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:08:47 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:10:16 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:11:08 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:12:35 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+19:13:02 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 

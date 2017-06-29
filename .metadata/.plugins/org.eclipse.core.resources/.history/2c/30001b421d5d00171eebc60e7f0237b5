@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Integer.cpp
+// Author      : Ben Hardin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <limits>
+using namespace std;
+
+int main() {
+
+	cout << "Max int value: " << INT_MAX << endl;
+	cout << "Min int value: " << INT_MIN << endl;
+
+	return 0;
+}
