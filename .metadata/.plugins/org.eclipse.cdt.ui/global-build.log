@@ -382,3 +382,177 @@ Finished building target: Strings
 19:14:01 **** Incremental Build of configuration Debug for project Strings ****
 make all 
 make: Nothing to be done for `all'.
+18:11:20 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:12:33 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:12:33 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+18:12:33 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:12:33 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:12:36 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+18:13:15 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:13:41 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:13:59 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:18:49 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+../src/Strings.cpp:18:38: error: expected ';' at end of declaration
+        string text4 = text1 + text2 + text3
+                                            ^
+                                            ;
+1 error generated.
+make: *** [src/Strings.o] Error 1
+18:19:11 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+../src/Strings.cpp:18:38: error: expected ';' at end of declaration
+        string text4 = text1 + text2 + text3
+                                            ^
+                                            ;
+1 error generated.
+make: *** [src/Strings.o] Error 1
+18:19:12 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+../src/Strings.cpp:18:38: error: expected ';' at end of declaration
+        string text4 = text1 + text2 + text3
+                                            ^
+                                            ;
+1 error generated.
+make: *** [src/Strings.o] Error 1
+18:19:28 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+Building file: ../src/Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Strings.d" -MT"src/Strings.o" -o "src/Strings.o" "../src/Strings.cpp"
+Finished building: ../src/Strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./src/Strings.o   
+Finished building target: Strings
+ 
+18:24:39 **** Build of configuration Debug for project Inputting Text ****
+make all 
+Building file: ../src/Inputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inputting Text.d" -MT"src/Inputting\ Text.d" -o "src/Inputting Text.o" "../src/Inputting Text.cpp"
+Finished building: ../src/Inputting Text.cpp
+ 
+Building target: Inputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Inputting Text"  ./src/Inputting\ Text.o   
+Finished building target: Inputting Text
+ 
+18:24:40 **** Incremental Build of configuration Debug for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+18:25:07 **** Incremental Build of configuration Debug for project Inputting Text ****
+make all 
+Building file: ../src/Inputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inputting Text.d" -MT"src/Inputting\ Text.d" -o "src/Inputting Text.o" "../src/Inputting Text.cpp"
+Finished building: ../src/Inputting Text.cpp
+ 
+Building target: Inputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Inputting Text"  ./src/Inputting\ Text.o   
+Finished building target: Inputting Text
+ 
+18:29:23 **** Incremental Build of configuration Debug for project Inputting Text ****
+make all 
+Building file: ../src/Inputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inputting Text.d" -MT"src/Inputting\ Text.d" -o "src/Inputting Text.o" "../src/Inputting Text.cpp"
+Finished building: ../src/Inputting Text.cpp
+ 
+Building target: Inputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Inputting Text"  ./src/Inputting\ Text.o   
+Finished building target: Inputting Text
+ 
+18:29:48 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+18:29:48 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+18:30:02 **** Incremental Build of configuration Debug for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.

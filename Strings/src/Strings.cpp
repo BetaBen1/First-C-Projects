@@ -11,9 +11,13 @@ using namespace std;
 
 int main() {
 
-	int value = 6;
+	string text1 = "Hello ";
+	string text2 = "Fred";
+	string text3 = ".";
 
-	cout << value << endl;
+	string text4 = text1 + text2 + text3;
+
+	cout << text4 << endl;
 
 	return 0;
 }
