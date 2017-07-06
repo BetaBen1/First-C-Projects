@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : If-Else.cpp
+// Author      : Ben Hardin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	cout << "1. Add new record." << endl;
+	cout << "2. Delete record." << endl;
+	cout << "3. View record." << endl;
+	cout << "4. Search record." << endl;
+	cout << "5. Quit." << endl;
+
+	cout << "Enter your selection: " << flush;
+	int value;
+	cin >> value;
+
+	if(value == 5){
+		cout << "The program has successfully quit." << endl;
+	}
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+16:57:35 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+
+16:57:35 Build Finished (took 379ms)
+

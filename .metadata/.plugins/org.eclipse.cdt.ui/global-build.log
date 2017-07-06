@@ -793,3 +793,336 @@ Invoking: MacOS X C++ Linker
 g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
 Finished building target: Floating Point Types
  
+16:41:44 **** Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:41:47 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+16:41:55 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:42:01 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:42:09 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:43:28 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:46:17 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:47:37 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:48:34 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:49:30 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+../src/Other Data Types.cpp:22:10: error: use of undeclared identifier 'wWValue'; did you mean 'wValue'?
+        cout << wWValue << endl;
+                ^~~~~~~
+                wValue
+../src/Other Data Types.cpp:21:10: note: 'wValue' declared here
+        wchar_t wValue = 'i';
+                ^
+1 error generated.
+make: *** [src/Other Data Types.o] Error 1
+16:49:39 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:49:51 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:50:04 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+../src/Other Data Types.cpp:21:19: warning: multi-character character constant [-Wmultichar]
+        wchar_t wValue = 'it';
+                         ^
+1 warning generated.
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:50:11 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+../src/Other Data Types.cpp:21:19: warning: multi-character character constant [-Wmultichar]
+        wchar_t wValue = 'it';
+                         ^
+1 warning generated.
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:50:15 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:50:56 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+Building file: ../src/Other Data Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
+Finished building: ../src/Other Data Types.cpp
+ 
+Building target: Other Data Types
+Invoking: MacOS X C++ Linker
+g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
+Finished building target: Other Data Types
+ 
+16:56:12 **** Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+16:56:14 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+16:56:59 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+16:57:14 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+16:57:19 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+16:57:35 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+17:06:41 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+17:06:42 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+17:10:01 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+../src/If-Else Statements.cpp:22:6: warning: expression result unused [-Wunused-value]
+        cin << value;
+        ~~~ ^  ~~~~~
+../src/If-Else Statements.cpp:22:9: warning: variable 'value' is uninitialized when used here [-Wuninitialized]
+        cin << value;
+               ^~~~~
+../src/If-Else Statements.cpp:21:11: note: initialize the variable 'value' to silence this warning
+        int value;
+                 ^
+                  = 0
+2 warnings generated.
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+17:10:20 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+17:10:34 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+17:11:18 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+17:12:56 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
