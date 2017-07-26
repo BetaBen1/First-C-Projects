@@ -1126,3 +1126,93 @@ Invoking: MacOS X C++ Linker
 g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
 Finished building target: If-Else Statements
  
+15:04:15 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:04:23 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+15:08:01 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:08:13 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:10:29 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:11:42 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:11:55 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+15:17:29 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+15:17:32 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
