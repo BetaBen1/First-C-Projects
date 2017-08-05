@@ -1216,3 +1216,136 @@ Finished building target: Comples Conditions
 15:17:32 **** Incremental Build of configuration Debug for project Comples Conditions ****
 make all 
 make: Nothing to be done for `all'.
+20:26:19 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+../src/Complex Conditions.cpp:13:6: warning: unused variable 'value2' [-Wunused-variable]
+        int value2 = 4;
+            ^
+1 warning generated.
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+20:26:22 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+20:26:24 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+20:26:26 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+20:26:31 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+../src/Complex Conditions.cpp:13:6: warning: unused variable 'value2' [-Wunused-variable]
+        int value2 = 4;
+            ^
+1 warning generated.
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+20:38:32 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+20:48:39 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+20:54:33 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+../src/Complex Conditions.cpp:27:17: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if(value2 != 8 && value1 == 7 || value1 < 10){
+           ~~~~~~~~~~~~^~~~~~~~~~~~~~ ~~
+../src/Complex Conditions.cpp:27:17: note: place parentheses around the '&&' expression to silence this warning
+        if(value2 != 8 && value1 == 7 || value1 < 10){
+                       ^
+           (                         )
+1 warning generated.
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+21:03:56 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+21:05:07 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+21:05:58 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+21:06:18 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 

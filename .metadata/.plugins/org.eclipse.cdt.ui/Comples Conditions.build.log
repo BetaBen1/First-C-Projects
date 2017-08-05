@@ -1,6 +1,15 @@
-15:17:32 **** Incremental Build of configuration Debug for project Comples Conditions ****
+21:06:18 **** Incremental Build of configuration Debug for project Comples Conditions ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
 
-15:17:32 Build Finished (took 68ms)
+21:06:18 Build Finished (took 384ms)
 
