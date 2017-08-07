@@ -1,0 +1,20 @@
+/*
+ * Do-While Loops!
+ */
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int value = 7;
+
+	do {
+		cout << "Hello World!" << endl;
+	} while (value<8){
+
+	}
+
+	return 0;
+
+}

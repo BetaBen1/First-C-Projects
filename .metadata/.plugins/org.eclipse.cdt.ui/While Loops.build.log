@@ -1,0 +1,15 @@
+14:53:35 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+
+14:53:35 Build Finished (took 386ms)
+

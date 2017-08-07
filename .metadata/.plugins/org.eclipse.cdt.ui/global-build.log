@@ -1349,3 +1349,156 @@ Invoking: MacOS X C++ Linker
 g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
 Finished building target: Comples Conditions
  
+14:36:23 **** Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:36:30 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:41:46 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:51:17 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:52:10 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:52:16 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:53:28 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:53:35 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+15:01:49 **** Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+15:01:50 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+15:10:38 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+15:10:45 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+15:10:59 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+15:12:34 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+15:13:13 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
