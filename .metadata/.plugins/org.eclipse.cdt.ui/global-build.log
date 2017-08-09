@@ -1502,3 +1502,106 @@ Invoking: MacOS X C++ Linker
 g++  -o "Do-While"  ./src/Do-While.o   
 Finished building target: Do-While
  
+14:26:06 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:28:40 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+14:28:46 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:29:23 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+Building file: ../src/Do-While.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
+Finished building: ../src/Do-While.cpp
+ 
+Building target: Do-While
+Invoking: MacOS X C++ Linker
+g++  -o "Do-While"  ./src/Do-While.o   
+Finished building target: Do-While
+ 
+14:41:21 **** Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
+14:41:22 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:41:51 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
+14:42:05 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
+14:42:21 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+../src/Break and Continue.cpp:17:2: error: 'continue' statement not in loop statement
+        continue;
+        ^
+1 error generated.
+make: *** [src/Break and Continue.o] Error 1
+14:43:05 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
+14:43:28 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
