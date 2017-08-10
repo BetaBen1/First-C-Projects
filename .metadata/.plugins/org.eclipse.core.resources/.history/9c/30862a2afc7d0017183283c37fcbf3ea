@@ -1,0 +1,15 @@
+/*
+ * Arrays!
+ */
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int values[3];
+
+	values[0] = 88;
+
+	return 0;
+}
