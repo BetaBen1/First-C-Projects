@@ -1,15 +1,6 @@
-14:43:28 **** Incremental Build of configuration Debug for project Break and Continue ****
+14:34:40 **** Incremental Build of configuration Debug for project Break and Continue ****
 make all 
-Building file: ../src/Break and Continue.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
-Finished building: ../src/Break and Continue.cpp
- 
-Building target: Break and Continue
-Invoking: MacOS X C++ Linker
-g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
-Finished building target: Break and Continue
- 
+make: Nothing to be done for `all'.
 
-14:43:29 Build Finished (took 395ms)
+14:34:40 Build Finished (took 92ms)
 

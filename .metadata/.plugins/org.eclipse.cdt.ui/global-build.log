@@ -1605,3 +1605,6 @@ Invoking: MacOS X C++ Linker
 g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
 Finished building target: Break and Continue
  
+14:34:40 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
