@@ -1,15 +1,6 @@
-14:29:23 **** Incremental Build of configuration Debug for project Do-While ****
+14:47:46 **** Build of configuration Debug for project Do-While ****
 make all 
-Building file: ../src/Do-While.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Do-While.d" -MT"src/Do-While.o" -o "src/Do-While.o" "../src/Do-While.cpp"
-Finished building: ../src/Do-While.cpp
- 
-Building target: Do-While
-Invoking: MacOS X C++ Linker
-g++  -o "Do-While"  ./src/Do-While.o   
-Finished building target: Do-While
- 
+make: Nothing to be done for `all'.
 
-14:29:24 Build Finished (took 368ms)
+14:47:46 Build Finished (took 65ms)
 

@@ -1812,3 +1812,218 @@ Invoking: MacOS X C++ Linker
 g++  -o "Arrays"  ./src/Arrays.o   
 Finished building target: Arrays
  
+14:47:44 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:47:44 **** Build of configuration Debug for project Break and Continue ****
+make all 
+Building file: ../src/Break and Continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Break and Continue.d" -MT"src/Break\ and\ Continue.d" -o "src/Break and Continue.o" "../src/Break and Continue.cpp"
+Finished building: ../src/Break and Continue.cpp
+ 
+Building target: Break and Continue
+Invoking: MacOS X C++ Linker
+g++  -o "Break and Continue"  ./src/Break\ and\ Continue.o   
+Finished building target: Break and Continue
+ 
+14:47:45 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+Building file: ../src/Complex Conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Complex Conditions.d" -MT"src/Complex\ Conditions.d" -o "src/Complex Conditions.o" "../src/Complex Conditions.cpp"
+Finished building: ../src/Complex Conditions.cpp
+ 
+Building target: Comples Conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o   
+Finished building target: Comples Conditions
+ 
+14:47:46 **** Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:47:46 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:46 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:47:46 **** Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:47:46 **** Build of configuration Debug for project If Statements ****
+make all 
+Building file: ../src/If Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
+Finished building: ../src/If Statements.cpp
+ 
+Building target: If Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If Statements"  ./src/If\ Statements.o   
+Finished building target: If Statements
+ 
+14:47:46 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+Building file: ../src/If-Else Statements.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
+Finished building: ../src/If-Else Statements.cpp
+ 
+Building target: If-Else Statements
+Invoking: MacOS X C++ Linker
+g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
+Finished building target: If-Else Statements
+ 
+14:47:47 **** Build of configuration Release for project Inputting Text ****
+make all 
+Building file: ../src/Inputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inputting Text.d" -MT"src/Inputting\ Text.d" -o "src/Inputting Text.o" "../src/Inputting Text.cpp"
+Finished building: ../src/Inputting Text.cpp
+ 
+Building target: Inputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Inputting Text"  ./src/Inputting\ Text.o   
+Finished building target: Inputting Text
+ 
+14:47:47 **** Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:47 **** Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:47:48 **** Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:48 **** Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:47:48 **** Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:47:48 **** Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:47:48 **** Build of configuration Debug for project While Loops ****
+make all 
+Building file: ../src/While Loops.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/While Loops.d" -MT"src/While\ Loops.d" -o "src/While Loops.o" "../src/While Loops.cpp"
+Finished building: ../src/While Loops.cpp
+ 
+Building target: While Loops
+Invoking: MacOS X C++ Linker
+g++  -o "While Loops"  ./src/While\ Loops.o   
+Finished building target: While Loops
+ 
+14:47:52 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:48:19 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:48:36 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:48:42 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:56:08 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:56:20 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+../src/Multidimensional Arrays.cpp:33:3: error: reference to overloaded function could not be resolved; did you mean to call it?
+                endl;
+                ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+make: *** [src/Multidimensional Arrays.o] Error 1
+14:56:27 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 
+14:56:44 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+../src/Multidimensional Arrays.cpp:26:13: error: expected '}'
+                        {4, 5, 6}.
+                                 ^
+../src/Multidimensional Arrays.cpp:24:22: note: to match this '{'
+        int numbers[3][3] = {
+                            ^
+1 error generated.
+make: *** [src/Multidimensional Arrays.o] Error 1
+14:57:36 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+Building file: ../src/Multidimensional Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multidimensional Arrays.d" -MT"src/Multidimensional\ Arrays.d" -o "src/Multidimensional Arrays.o" "../src/Multidimensional Arrays.cpp"
+Finished building: ../src/Multidimensional Arrays.cpp
+ 
+Building target: Multidimensional Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
+Finished building target: Multidimensional Arrays
+ 

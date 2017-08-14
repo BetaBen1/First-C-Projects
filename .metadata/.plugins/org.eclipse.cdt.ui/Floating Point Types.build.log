@@ -1,6 +1,6 @@
-15:04:13 **** Build of configuration Debug for project Floating Point Types ****
+14:47:46 **** Build of configuration Debug for project Floating Point Types ****
 make all 
 make: Nothing to be done for `all'.
 
-15:04:13 Build Finished (took 69ms)
+14:47:46 Build Finished (took 64ms)
 

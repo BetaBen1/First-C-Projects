@@ -1,15 +1,6 @@
-16:50:56 **** Incremental Build of configuration Debug for project Other Data Types ****
+14:47:48 **** Build of configuration Debug for project Other Data Types ****
 make all 
-Building file: ../src/Other Data Types.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other Data Types.d" -MT"src/Other\ Data\ Types.d" -o "src/Other Data Types.o" "../src/Other Data Types.cpp"
-Finished building: ../src/Other Data Types.cpp
- 
-Building target: Other Data Types
-Invoking: MacOS X C++ Linker
-g++  -o "Other Data Types"  ./src/Other\ Data\ Types.o   
-Finished building target: Other Data Types
- 
+make: Nothing to be done for `all'.
 
-16:50:57 Build Finished (took 377ms)
+14:47:48 Build Finished (took 68ms)
 

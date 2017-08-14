@@ -1,4 +1,4 @@
-21:06:18 **** Incremental Build of configuration Debug for project Comples Conditions ****
+14:47:45 **** Build of configuration Debug for project Comples Conditions ****
 make all 
 Building file: ../src/Complex Conditions.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Comples Conditions"  ./src/Complex\ Conditions.o
 Finished building target: Comples Conditions
  
 
-21:06:18 Build Finished (took 384ms)
+14:47:46 Build Finished (took 383ms)
 

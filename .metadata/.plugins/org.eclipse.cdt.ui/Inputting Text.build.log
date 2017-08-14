@@ -1,6 +1,15 @@
-18:30:02 **** Incremental Build of configuration Debug for project Inputting Text ****
+14:47:47 **** Build of configuration Release for project Inputting Text ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Inputting Text.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inputting Text.d" -MT"src/Inputting\ Text.d" -o "src/Inputting Text.o" "../src/Inputting Text.cpp"
+Finished building: ../src/Inputting Text.cpp
+ 
+Building target: Inputting Text
+Invoking: MacOS X C++ Linker
+g++  -o "Inputting Text"  ./src/Inputting\ Text.o   
+Finished building target: Inputting Text
+ 
 
-18:30:02 Build Finished (took 64ms)
+14:47:47 Build Finished (took 483ms)
 

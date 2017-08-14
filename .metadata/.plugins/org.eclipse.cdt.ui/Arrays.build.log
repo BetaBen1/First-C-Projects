@@ -1,15 +1,6 @@
-14:56:33 **** Incremental Build of configuration Debug for project Arrays ****
+14:47:44 **** Incremental Build of configuration Debug for project Arrays ****
 make all 
-Building file: ../src/Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arrays.d" -MT"src/Arrays.o" -o "src/Arrays.o" "../src/Arrays.cpp"
-Finished building: ../src/Arrays.cpp
- 
-Building target: Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Arrays"  ./src/Arrays.o   
-Finished building target: Arrays
- 
+make: Nothing to be done for `all'.
 
-14:56:33 Build Finished (took 386ms)
+14:47:44 Build Finished (took 67ms)
 
