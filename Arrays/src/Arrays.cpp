@@ -19,6 +19,8 @@ int main() {
 		cout << values[i] << endl;
 	}
 
+	cout << "Bad Idea: " << values[3] << endl;
+
 	double numbers[4] = { 4.5, 2.3, 7.2, 8.1 };
 
 	cout << endl << "Array of Doubles" << endl;
@@ -40,6 +42,9 @@ int main() {
 	}
 
 	string texts[] = {"apple", "banana", "orange"};
+	for (int i = 0; i < 3; i++) {
+		cout << texts[i] << endl;
+	}
 
 	return 0;
 }

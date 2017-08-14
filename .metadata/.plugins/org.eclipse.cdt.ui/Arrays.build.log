@@ -1,4 +1,4 @@
-15:01:23 **** Incremental Build of configuration Debug for project Arrays ****
+14:56:33 **** Incremental Build of configuration Debug for project Arrays ****
 make all 
 Building file: ../src/Arrays.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Arrays"  ./src/Arrays.o
 Finished building target: Arrays
  
 
-15:01:24 Build Finished (took 490ms)
+14:56:33 Build Finished (took 386ms)
 
