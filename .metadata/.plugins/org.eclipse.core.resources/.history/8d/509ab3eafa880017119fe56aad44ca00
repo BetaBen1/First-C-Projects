@@ -1,0 +1,19 @@
+/*
+ * Learning the size of stuff!
+ */
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int values[] = {4, 7, 3, 4};
+
+	for(int i=0; i<4; i++){
+		cout << values[i] << " " << flush;
+	}
+
+	cout << endl;
+
+	return 0;
+}

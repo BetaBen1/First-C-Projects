@@ -1,15 +1,6 @@
-14:47:46 **** Build of configuration Debug for project If Statements ****
+14:41:27 **** Incremental Build of configuration Debug for project If Statements ****
 make all 
-Building file: ../src/If Statements.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If Statements.d" -MT"src/If\ Statements.d" -o "src/If Statements.o" "../src/If Statements.cpp"
-Finished building: ../src/If Statements.cpp
- 
-Building target: If Statements
-Invoking: MacOS X C++ Linker
-g++  -o "If Statements"  ./src/If\ Statements.o   
-Finished building target: If Statements
- 
+make: Nothing to be done for `all'.
 
-14:47:46 Build Finished (took 385ms)
+14:41:27 Build Finished (took 65ms)
 

@@ -1,15 +1,6 @@
-14:47:46 **** Build of configuration Debug for project If-Else Statements ****
+14:41:27 **** Incremental Build of configuration Debug for project If-Else Statements ****
 make all 
-Building file: ../src/If-Else Statements.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/If-Else Statements.d" -MT"src/If-Else\ Statements.d" -o "src/If-Else Statements.o" "../src/If-Else Statements.cpp"
-Finished building: ../src/If-Else Statements.cpp
- 
-Building target: If-Else Statements
-Invoking: MacOS X C++ Linker
-g++  -o "If-Else Statements"  ./src/If-Else\ Statements.o   
-Finished building target: If-Else Statements
- 
+make: Nothing to be done for `all'.
 
-14:47:47 Build Finished (took 381ms)
+14:41:27 Build Finished (took 71ms)
 

@@ -2027,3 +2027,474 @@ Invoking: MacOS X C++ Linker
 g++  -o "Multidimensional Arrays"  ./src/Multidimensional\ Arrays.o   
 Finished building target: Multidimensional Arrays
  
+14:25:45 **** Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:5:1: error: unknown type name 'include'
+include <iostream>
+^
+../src/SizeOf.cpp:5:9: error: expected unqualified-id
+include <iostream>
+        ^
+2 errors generated.
+make: *** [src/SizeOf.o] Error 1
+14:26:04 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:28:14 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:33:31 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:10:22: error: expected '}'
+        int values = {4, 7. 3. 4};
+                            ^
+../src/SizeOf.cpp:10:15: note: to match this '{'
+        int values = {4, 7. 3. 4};
+                     ^
+../src/SizeOf.cpp:13:17: error: subscripted value is not an array, pointer, or vector
+                cout << values[i] << " " << flush;
+                        ~~~~~~^~
+2 errors generated.
+make: *** [src/SizeOf.o] Error 1
+14:33:40 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:10:22: error: expected '}'
+        int values = {4, 7. 3. 4};
+                            ^
+../src/SizeOf.cpp:10:15: note: to match this '{'
+        int values = {4, 7. 3. 4};
+                     ^
+../src/SizeOf.cpp:13:17: error: subscripted value is not an array, pointer, or vector
+                cout << values[i] << " " << flush;
+                        ~~~~~~^~
+2 errors generated.
+make: *** [src/SizeOf.o] Error 1
+14:33:47 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:10:24: error: expected '}'
+        int values[] = {4, 7. 3. 4};
+                              ^
+../src/SizeOf.cpp:10:17: note: to match this '{'
+        int values[] = {4, 7. 3. 4};
+                       ^
+1 error generated.
+make: *** [src/SizeOf.o] Error 1
+14:34:03 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:10:24: error: expected '}'
+        int values[] = {4, 7. 3. 4};
+                              ^
+../src/SizeOf.cpp:10:17: note: to match this '{'
+        int values[] = {4, 7. 3. 4};
+                       ^
+1 error generated.
+make: *** [src/SizeOf.o] Error 1
+14:34:41 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:34:43 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:34:52 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:35:40 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:37:16 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:40:47 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:31:5: warning: expression result unused [-Wunused-value]
+                        ("fox", "dog", "cat"),
+                         ^~~~~
+../src/SizeOf.cpp:31:12: warning: expression result unused [-Wunused-value]
+                        ("fox", "dog", "cat"),
+                                ^~~~~
+../src/SizeOf.cpp:32:5: warning: expression result unused [-Wunused-value]
+                        ("mouse", "squirrel", "parrot")
+                         ^~~~~~~
+../src/SizeOf.cpp:32:14: warning: expression result unused [-Wunused-value]
+                        ("mouse", "squirrel", "parrot")
+                                  ^~~~~~~~~~
+../src/SizeOf.cpp:31:4: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+                        ("fox", "dog", "cat"),
+                        ^~~~~~~~~~~~~~~~~~~~~~
+5 warnings generated.
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:41:22 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:41:26 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:41:26 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:41:26 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:41:26 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:41:26 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:26 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:27 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:41:28 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:42:21 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:42:32 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:44:25 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:38:52: error: expected ';' in 'for' statement specifier
+                for(int j=0; i<sizeof(animals[0])/sizeof(string) j++){
+                                                                 ^
+../src/SizeOf.cpp:38:16: warning: variable 'i' used in loop condition not modified in loop body [-Wfor-loop-analysis]
+                for(int j=0; i<sizeof(animals[0])/sizeof(string) j++){
+                             ^
+1 warning and 1 error generated.
+make: *** [src/SizeOf.o] Error 1
+14:44:43 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+../src/SizeOf.cpp:38:16: warning: variable 'i' used in loop condition not modified in loop body [-Wfor-loop-analysis]
+                for(int j=0; i<sizeof(animals[0])/sizeof(string); j++){
+                             ^
+1 warning generated.
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:45:22 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:45:54 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+Building file: ../src/SizeOf.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SizeOf.d" -MT"src/SizeOf.o" -o "src/SizeOf.o" "../src/SizeOf.cpp"
+Finished building: ../src/SizeOf.cpp
+ 
+Building target: SizeOf
+Invoking: MacOS X C++ Linker
+g++  -o "SizeOf"  ./src/SizeOf.o   
+Finished building target: SizeOf
+ 
+14:48:20 **** Build of configuration Debug for project Switch ****
+make all 
+Building file: ../src/Switch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
+Finished building: ../src/Switch.cpp
+ 
+Building target: Switch
+Invoking: MacOS X C++ Linker
+g++  -o "Switch"  ./src/Switch.o   
+Finished building target: Switch
+ 
+14:51:20 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+Building file: ../src/Switch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
+Finished building: ../src/Switch.cpp
+ 
+Building target: Switch
+Invoking: MacOS X C++ Linker
+g++  -o "Switch"  ./src/Switch.o   
+Finished building target: Switch
+ 
+14:51:26 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+Building file: ../src/Switch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
+Finished building: ../src/Switch.cpp
+ 
+Building target: Switch
+Invoking: MacOS X C++ Linker
+g++  -o "Switch"  ./src/Switch.o   
+Finished building target: Switch
+ 
+14:51:35 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+Building file: ../src/Switch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
+Finished building: ../src/Switch.cpp
+ 
+Building target: Switch
+Invoking: MacOS X C++ Linker
+g++  -o "Switch"  ./src/Switch.o   
+Finished building target: Switch
+ 
+14:59:01 **** Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:01:43 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:01:50 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:04:29 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:05:43 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:06:11 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:06:55 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+15:07:13 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+../src/Functions.cpp:17:2: error: use of undeclared identifier 'select'
+        select();
+        ^
+1 error generated.
+make: *** [src/Functions.o] Error 1
+15:09:06 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 

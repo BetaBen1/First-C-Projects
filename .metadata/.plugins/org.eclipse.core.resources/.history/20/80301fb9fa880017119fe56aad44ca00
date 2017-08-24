@@ -1,0 +1,15 @@
+/*
+ * Learning the size of stuff!
+ */
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int value = 34;
+
+	cout << sizeof(value) << endl;
+
+	return 0;
+}
