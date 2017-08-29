@@ -2534,3 +2534,246 @@ Invoking: MacOS X C++ Linker
 g++  -o "Return"  ./src/Return.o   
 Finished building target: Return
  
+14:28:41 **** Build of configuration Debug for project Function Parameters ****
+make all 
+Building file: ../src/Function Parameters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Function Parameters.d" -MT"src/Function\ Parameters.d" -o "src/Function Parameters.o" "../src/Function Parameters.cpp"
+Finished building: ../src/Function Parameters.cpp
+ 
+Building target: Function Parameters
+Invoking: MacOS X C++ Linker
+g++  -o "Function Parameters"  ./src/Function\ Parameters.o   
+Finished building target: Function Parameters
+ 
+14:34:10 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+Building file: ../src/Function Parameters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Function Parameters.d" -MT"src/Function\ Parameters.d" -o "src/Function Parameters.o" "../src/Function Parameters.cpp"
+Finished building: ../src/Function Parameters.cpp
+ 
+Building target: Function Parameters
+Invoking: MacOS X C++ Linker
+g++  -o "Function Parameters"  ./src/Function\ Parameters.o   
+Finished building target: Function Parameters
+ 
+14:36:59 **** Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:37:00 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:37:56 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:39:44 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:42:12 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:42:24 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:42:27 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:42:51 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:42:56 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+../src/Prototypes and Includes.cpp:11:2: error: use of undeclared identifier 'doSomething'
+        doSomething();
+        ^
+../src/Prototypes and Includes.cpp:12:2: error: use of undeclared identifier 'doSomething'
+        doSomething();
+        ^
+2 errors generated.
+make: *** [src/Prototypes and Includes.o] Error 1
+14:42:59 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:50:45 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+14:57:32 **** Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Classes.o   
+Finished building target: Classes
+ 
+14:59:00 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Classes.o   
+Finished building target: Classes
+ 
+14:59:09 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+15:08:14 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:2: error: use of undeclared identifier 'Cat'
+        Cat.speak();
+        ^
+1 error generated.
+make: *** [src/Classes.o] Error 1
+15:08:24 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+15:08:26 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+15:09:27 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+15:11:49 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+../src/Cat.cpp:16:53: error: unexpected ':' in nested name specifier; did you mean '::'?
+        std::cout << "Jumping to cat of bookcase..." << std:endl;
+                                                           ^
+                                                           ::
+1 error generated.
+make: *** [src/Cat.o] Error 1
+15:11:53 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+../src/Cat.cpp:16:53: error: unexpected ':' in nested name specifier; did you mean '::'?
+        std::cout << "Jumping to cat of bookcase..." << std:endl;
+                                                           ^
+                                                           ::
+1 error generated.
+make: *** [src/Cat.o] Error 1
+15:11:54 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+../src/Cat.cpp:16:53: error: unexpected ':' in nested name specifier; did you mean '::'?
+        std::cout << "Jumping to cat of bookcase..." << std:endl;
+                                                           ^
+                                                           ::
+1 error generated.
+make: *** [src/Cat.o] Error 1
+15:12:14 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+15:12:17 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.

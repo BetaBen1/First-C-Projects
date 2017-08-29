@@ -1,0 +1,18 @@
+/*
+ * Prototypes and Includes
+ */
+
+#include <iostream>
+#include "utils.h"
+
+int main(){
+
+	doSomething();
+	doSomething();
+
+	return 0;
+}
+
+void doSomething(){
+	cout << "Hello" << endl;
+}

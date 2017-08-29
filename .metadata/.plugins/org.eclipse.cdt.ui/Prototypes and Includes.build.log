@@ -1,0 +1,15 @@
+14:50:45 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+Building file: ../src/Prototypes and Includes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prototypes and Includes.d" -MT"src/Prototypes\ and\ Includes.d" -o "src/Prototypes and Includes.o" "../src/Prototypes and Includes.cpp"
+Finished building: ../src/Prototypes and Includes.cpp
+ 
+Building target: Prototypes and Includes
+Invoking: MacOS X C++ Linker
+g++  -o "Prototypes and Includes"  ./src/Prototypes\ and\ Includes.o   
+Finished building target: Prototypes and Includes
+ 
+
+14:50:45 Build Finished (took 383ms)
+
