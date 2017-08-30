@@ -1,6 +1,6 @@
-14:41:28 **** Incremental Build of configuration Debug for project Variables ****
+14:55:52 **** Build of configuration Debug for project Variables ****
 make all 
 make: Nothing to be done for `all'.
 
-14:41:28 Build Finished (took 66ms)
+14:55:52 Build Finished (took 69ms)
 

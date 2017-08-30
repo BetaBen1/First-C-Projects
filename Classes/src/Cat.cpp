@@ -8,10 +8,10 @@
 #include <iostream>
 #include "Cat.h"
 
-void speak(){
+void Cat::speak(){
 	std::cout << "Meow!" << std::endl;
 }
 
-void jump(){
+void Cat::jump(){
 	std::cout << "Jumping to cat of bookcase..." << std::endl;
 }

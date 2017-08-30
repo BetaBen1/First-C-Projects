@@ -1,6 +1,6 @@
-14:41:27 **** Incremental Build of configuration Debug for project Integer Types ****
+14:55:51 **** Build of configuration Debug for project Integer Types ****
 make all 
 make: Nothing to be done for `all'.
 
-14:41:27 Build Finished (took 66ms)
+14:55:51 Build Finished (took 69ms)
 

@@ -1,0 +1,18 @@
+/*
+ * Cat.h
+ *
+ *  Created on: Aug 30, 2017
+ *      Author: Ben
+ */
+
+#ifndef CAT_H_
+#define CAT_H_
+
+class Cat {
+public:
+	bool happy;
+	void setMood;
+	void speak();
+};
+
+#endif /* CAT_H_ */

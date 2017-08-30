@@ -11,7 +11,8 @@
 
 int main() {
 	std::cout << "!!!Hello World!!!" << std::endl; // prints !!!Hello World!!!
-	speak();
-	jump();
+	Cat cat;
+	cat.speak();
+	cat.jump();
 	return 0;
 }

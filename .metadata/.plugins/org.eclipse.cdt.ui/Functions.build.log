@@ -1,4 +1,4 @@
-15:09:06 **** Incremental Build of configuration Debug for project Functions ****
+14:55:50 **** Build of configuration Debug for project Functions ****
 make all 
 Building file: ../src/Functions.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Functions"  ./src/Functions.o
 Finished building target: Functions
  
 
-15:09:06 Build Finished (took 377ms)
+14:55:51 Build Finished (took 385ms)
 

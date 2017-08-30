@@ -2777,3 +2777,342 @@ Finished building target: Classes
 15:12:17 **** Incremental Build of configuration Debug for project Classes ****
 make all 
 make: Nothing to be done for `all'.
+14:41:37 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:49:51 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:2: error: use of undeclared identifier 'speak'
+        speak();
+        ^
+../src/Classes.cpp:15:2: error: use of undeclared identifier 'jump'
+        jump();
+        ^
+2 errors generated.
+make: *** [src/Classes.o] Error 1
+14:50:11 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:5: error: cannot use dot operator on a type
+        Cat.speak();
+           ^
+../src/Classes.cpp:15:5: error: cannot use dot operator on a type
+        Cat.jump();
+           ^
+2 errors generated.
+make: *** [src/Classes.o] Error 1
+14:50:45 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:7: error: call to non-static member function without an object argument
+        Cat::speak();
+        ~~~~~^~~~~
+../src/Classes.cpp:15:7: error: call to non-static member function without an object argument
+        Cat::jump();
+        ~~~~~^~~~
+2 errors generated.
+make: *** [src/Classes.o] Error 1
+14:50:52 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:2: error: use of undeclared identifier 'speak'
+        speak();
+        ^
+../src/Classes.cpp:15:2: error: use of undeclared identifier 'jump'
+        jump();
+        ^
+2 errors generated.
+make: *** [src/Classes.o] Error 1
+14:51:59 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:6: error: no viable conversion from 'Cat *' to 'Cat'
+        Cat cat = new Cat();
+            ^     ~~~~~~~~~
+../src/Cat.h:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'Cat *' to 'const Cat &' for 1st argument; dereference the argument with *
+class Cat{
+      ^
+1 error generated.
+make: *** [src/Classes.o] Error 1
+14:52:46 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+14:52:48 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:55:49 **** Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:55:49 **** Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:55:49 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:55:49 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:55:49 **** Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+14:55:50 **** Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:55:50 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:55:50 **** Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:55:50 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:55:50 **** Build of configuration Debug for project Functions ****
+make all 
+Building file: ../src/Functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
+Finished building: ../src/Functions.cpp
+ 
+Building target: Functions
+Invoking: MacOS X C++ Linker
+g++  -o "Functions"  ./src/Functions.o   
+Finished building target: Functions
+ 
+14:55:51 **** Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:55:51 **** Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:55:52 **** Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:55:59 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:56:04 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:56:08 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:58:39 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+15:04:06 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+../src/Cat.cpp:11:2: error: use of undeclared identifier 'std'
+        std::cout << "Meow!" << std::endl;
+        ^
+../src/Cat.cpp:11:26: error: use of undeclared identifier 'std'
+        std::cout << "Meow!" << std::endl;
+                                ^
+2 errors generated.
+make: *** [src/Cat.o] Error 1
+15:04:18 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+../src/Cat.cpp:11:2: error: use of undeclared identifier 'std'
+        std::cout << "Meow!" << std::endl;
+        ^
+../src/Cat.cpp:11:26: error: use of undeclared identifier 'std'
+        std::cout << "Meow!" << std::endl;
+                                ^
+2 errors generated.
+make: *** [src/Cat.o] Error 1
+15:04:36 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+../src/Data Members.cpp:15:6: warning: unused variable 'cat' [-Wunused-variable]
+        Cat cat;
+            ^
+1 warning generated.
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+15:04:45 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+15:08:34 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+15:08:39 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+15:09:27 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+../src/Data Members.cpp:16:2: error: use of undeclared identifier 'cat'; did you mean 'cat1'?
+        cat.happy = true;
+        ^~~
+        cat1
+../src/Data Members.cpp:15:6: note: 'cat1' declared here
+        Cat cat1;
+            ^
+../src/Data Members.cpp:17:2: error: use of undeclared identifier 'cat'; did you mean 'cat1'?
+        cat.speak();
+        ^~~
+        cat1
+../src/Data Members.cpp:15:6: note: 'cat1' declared here
+        Cat cat1;
+            ^
+../src/Data Members.cpp:20:2: error: use of undeclared identifier 'cat'
+        cat.happy = false;
+        ^
+../src/Data Members.cpp:21:2: error: use of undeclared identifier 'cat'
+        cat.speak();
+        ^
+4 errors generated.
+make: *** [src/Data Members.o] Error 1
+15:09:36 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 

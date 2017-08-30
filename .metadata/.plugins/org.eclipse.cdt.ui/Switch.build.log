@@ -1,15 +1,6 @@
-14:51:35 **** Incremental Build of configuration Debug for project Switch ****
+14:55:52 **** Build of configuration Debug for project Switch ****
 make all 
-Building file: ../src/Switch.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
-Finished building: ../src/Switch.cpp
- 
-Building target: Switch
-Invoking: MacOS X C++ Linker
-g++  -o "Switch"  ./src/Switch.o   
-Finished building target: Switch
- 
+make: Nothing to be done for `all'.
 
-14:51:35 Build Finished (took 333ms)
+14:55:52 Build Finished (took 67ms)
 
