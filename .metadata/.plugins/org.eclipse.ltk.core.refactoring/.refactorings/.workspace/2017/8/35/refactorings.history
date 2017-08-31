@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Function Parameter&apos;" deleteContents="true" description="Delete resource &apos;Function Parameter&apos;" element1="/Function Parameter" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503947130798"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Function Parameter&apos;" deleteContents="true" description="Delete resource &apos;Function Parameter&apos;" element1="/Function Parameter" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503947130798"/>&#x0A;<refactoring comment="Delete resource &apos;Constructors and Destructors/src&apos;" deleteContents="false" description="Delete resource &apos;Constructors and Destructors/src&apos;" element1="/Constructors and Destructors/src" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1504205136131"/>
 </session>

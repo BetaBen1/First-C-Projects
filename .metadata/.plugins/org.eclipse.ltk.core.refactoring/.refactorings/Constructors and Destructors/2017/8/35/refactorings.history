@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Constructors and Destructors/src/Data Members.cpp&apos; to &apos;Constructors and Destructors.cpp&apos;" description="Rename resource &apos;Data Members.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Data Members.cpp" name="Constructors and Destructors.cpp" stamp="1504205174491" updateReferences="true"/>
+</session>

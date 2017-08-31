@@ -1,4 +1,4 @@
-15:09:36 **** Incremental Build of configuration Debug for project Data Members ****
+14:39:42 **** Incremental Build of configuration Debug for project Data Members ****
 make all 
 Building file: ../src/Data Members.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o
 Finished building target: Data Members
  
 
-15:09:36 Build Finished (took 330ms)
+14:39:42 Build Finished (took 378ms)
 

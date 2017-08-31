@@ -3116,3 +3116,113 @@ Invoking: MacOS X C++ Linker
 g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
 Finished building target: Data Members
  
+14:37:12 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+In file included from ../src/Cat.cpp:8:
+../src/Cat.h:15:7: error: field has incomplete type 'void'
+        void setMood;
+             ^
+../src/Cat.cpp:13:3: error: invalid use of 'this' outside of a non-static member function
+                this.happy = true;
+                ^
+2 errors generated.
+make: *** [src/Cat.o] Error 1
+14:39:20 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+14:39:42 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+14:45:52 **** Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Constructors and Destructors
+ 
+14:47:25 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+14:48:48 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+14:48:52 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:54 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:55 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:55 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:56 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:57 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:48:57 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
