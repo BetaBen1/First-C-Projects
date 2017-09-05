@@ -1,20 +1,6 @@
-14:41:15 **** Build of configuration Debug for project Classes ****
+14:57:27 **** Incremental Build of configuration Debug for project Classes ****
 make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
-Finished building target: Classes
- 
+make: Nothing to be done for `all'.
 
-14:41:16 Build Finished (took 650ms)
+14:57:27 Build Finished (took 72ms)
 

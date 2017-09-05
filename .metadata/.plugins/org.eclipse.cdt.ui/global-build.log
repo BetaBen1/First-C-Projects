@@ -3477,3 +3477,330 @@ make: Nothing to be done for `all'.
 14:41:19 **** Build of configuration Debug for project While Loops ****
 make all 
 make: Nothing to be done for `all'.
+14:57:11 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:57:12 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:57:12 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:57:12 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:57:13 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+14:57:13 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:57:13 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:57:13 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:14 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:57:14 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:57:14 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:57:14 **** Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+In file included from ../src/Person.cpp:8:
+../src/Person.h:15:2: error: unknown type name 'String'; did you mean 'std::string'?
+        String name;
+        ^~~~~~
+        std::string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:194:65: note: 'std::string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+1 error generated.
+make: *** [src/Person.o] Error 1
+14:57:15 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:57:15 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:57:15 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:57:15 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:57:15 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:15 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:57:16 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:57:17 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:57:17 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:57:26 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:57:26 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:27 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:57:28 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:57:28 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:57:28 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+In file included from ../src/Person.cpp:8:
+../src/Person.h:15:7: error: no type named 'String' in namespace 'std'; did you mean 'string'?
+        std::String name;
+        ~~~~~^~~~~~
+             string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:194:65: note: 'string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+1 error generated.
+make: *** [src/Person.o] Error 1
+14:57:28 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:57:28 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:57:28 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:57:29 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:57:30 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:57:30 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:57:30 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:57:30 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:57:30 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:57:40 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+In file included from ../src/Person.cpp:8:
+../src/Person.h:15:2: error: unknown type name 'string'; did you mean 'std::string'?
+        string name;
+        ^~~~~~
+        std::string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:194:65: note: 'std::string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+1 error generated.
+make: *** [src/Person.o] Error 1
+14:57:44 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+In file included from ../src/Person.cpp:8:
+../src/Person.h:15:2: error: unknown type name 'string'; did you mean 'std::string'?
+        string name;
+        ^~~~~~
+        std::string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:194:65: note: 'std::string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+1 error generated.
+make: *** [src/Person.o] Error 1
+14:58:29 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+15:02:54 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+15:03:16 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+../src/Getters and Setters.cpp:12:15: error: 'Person' does not refer to a value
+        std::cout << Person.toString() << std::endl;
+                     ^
+../src/Person.h:12:7: note: declared here
+class Person {
+      ^
+1 error generated.
+make: *** [src/Getters and Setters.o] Error 1
+15:03:23 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+../src/Getters and Setters.cpp:12:15: error: 'Person' does not refer to a value
+        std::cout << Person.toString() << std::endl;
+                     ^
+../src/Person.h:12:7: note: declared here
+class Person {
+      ^
+1 error generated.
+make: *** [src/Getters and Setters.o] Error 1
+15:03:32 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+15:06:20 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+In file included from ../src/Getters and Setters.cpp:7:
+../src/Person.h:19:20: error: no type named 'String' in namespace 'std'; did you mean 'string'?
+        void setName(std::String newName);
+                     ~~~~~^~~~~~
+                          string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:194:65: note: 'string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+In file included from ../src/Getters and Setters.cpp:7:
+../src/Person.h:21:1: error: expected '('
+};
+^
+2 errors generated.
+make: *** [src/Getters and Setters.o] Error 1
+15:06:31 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+In file included from ../src/Getters and Setters.cpp:7:
+../src/Person.h:21:1: error: expected '('
+};
+^
+1 error generated.
+make: *** [src/Getters and Setters.o] Error 1
