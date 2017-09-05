@@ -1,6 +1,6 @@
-14:48:57 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+14:34:45 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
 make all 
 make: Nothing to be done for `all'.
 
-14:48:57 Build Finished (took 65ms)
+14:34:46 Build Finished (took 62ms)
 

@@ -16,6 +16,11 @@
 //	happy = false;
 //}
 
+Cat::Cat(){
+	std::cout << "Cat created." << std::endl;
+	happy = true;
+}
+
 void Cat::speak(){
 	if(happy){
 		std::cout << "Meow!" << std::endl;
