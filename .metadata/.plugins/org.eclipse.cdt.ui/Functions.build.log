@@ -1,15 +1,6 @@
-14:55:50 **** Build of configuration Debug for project Functions ****
+14:41:17 **** Build of configuration Debug for project Functions ****
 make all 
-Building file: ../src/Functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Functions.d" -MT"src/Functions.o" -o "src/Functions.o" "../src/Functions.cpp"
-Finished building: ../src/Functions.cpp
- 
-Building target: Functions
-Invoking: MacOS X C++ Linker
-g++  -o "Functions"  ./src/Functions.o   
-Finished building target: Functions
- 
+make: Nothing to be done for `all'.
 
-14:55:51 Build Finished (took 385ms)
+14:41:18 Build Finished (took 75ms)
 

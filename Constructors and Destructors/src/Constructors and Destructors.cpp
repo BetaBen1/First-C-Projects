@@ -13,8 +13,10 @@ int main() {
 
 	std::cout << "Starting program..." << std::endl;
 
-	Cat cat1;
-	cat1.speak();
+	{
+		Cat cat1;
+		cat1.speak();
+	}
 
 	std::cout << "Ending program..." << std::endl;
 

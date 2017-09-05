@@ -1,6 +1,6 @@
-14:55:50 **** Build of configuration Debug for project Do-While ****
+14:41:17 **** Build of configuration Debug for project Do-While ****
 make all 
 make: Nothing to be done for `all'.
 
-14:55:50 Build Finished (took 69ms)
+14:41:17 Build Finished (took 82ms)
 

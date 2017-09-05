@@ -21,6 +21,10 @@ Cat::Cat(){
 	happy = true;
 }
 
+Cat::~Cat(){
+	std::cout << "Cat destroyed." << std::endl;
+}
+
 void Cat::speak(){
 	if(happy){
 		std::cout << "Meow!" << std::endl;

@@ -3332,3 +3332,148 @@ Finished building target: Constructors and Destructors
 14:34:45 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
 make all 
 make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+14:39:01 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:40:57 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+14:41:15 **** Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:41:15 **** Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:41:15 **** Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+14:41:16 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:41:16 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+../src/Constructors and Destructors.cpp:21:2: error: use of undeclared identifier 'cat1'
+        cat1.speak();
+        ^
+1 error generated.
+make: *** [src/Constructors and Destructors.o] Error 1
+14:41:16 **** Build of configuration Debug for project Data Members ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members.d" -MT"src/Data\ Members.d" -o "src/Data Members.o" "../src/Data Members.cpp"
+Finished building: ../src/Data Members.cpp
+ 
+Building target: Data Members
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members"  ./src/Cat.o ./src/Data\ Members.o   
+Finished building target: Data Members
+ 
+14:41:17 **** Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:41:17 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:17 **** Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:41:17 **** Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:41:17 **** Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:41:18 **** Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:41:19 **** Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,6 +1,13 @@
-14:34:45 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+14:41:16 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+../src/Constructors and Destructors.cpp:21:2: error: use of undeclared identifier 'cat1'
+        cat1.speak();
+        ^
+1 error generated.
+make: *** [src/Constructors and Destructors.o] Error 1
 
-14:34:46 Build Finished (took 62ms)
+14:41:16 Build Finished (took 340ms)
 

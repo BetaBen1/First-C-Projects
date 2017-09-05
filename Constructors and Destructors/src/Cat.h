@@ -13,8 +13,9 @@ private:
 	bool happy;
 public:
 	Cat();
-	void makeHappy();
-	void makeSad();
+	~Cat();
+//	void makeHappy();
+//	void makeSad();
 	void speak();
 };
 
