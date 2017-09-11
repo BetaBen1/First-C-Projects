@@ -3804,3 +3804,898 @@ In file included from ../src/Getters and Setters.cpp:7:
 ^
 1 error generated.
 make: *** [src/Getters and Setters.o] Error 1
+14:25:33 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:25:35 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:25:36 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+In file included from ../src/Getters and Setters.cpp:7:
+../src/Person.h:21:1: error: expected '('
+};
+^
+1 error generated.
+make: *** [src/Getters and Setters.o] Error 1
+14:25:39 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:25:39 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:25:39 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:25:39 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:25:39 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:25:40 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:25:41 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:25:41 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:25:41 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:27:31 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+14:27:53 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+14:29:54 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+../src/Getters and Setters.cpp:15:72: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+        std::cout << "Name of person using get method" << person.getName() << endl;
+                                                                              ^~~~
+                                                                              std::endl
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: 'std::endl' declared here
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+1 error generated.
+make: *** [src/Getters and Setters.o] Error 1
+14:30:00 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+14:30:11 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Getters and Setters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
+Finished building: ../src/Getters and Setters.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+14:34:53 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:34:53 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:34:53 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:34:53 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:34:53 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:34:54 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:34:55 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:34:56 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:34:56 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:34:56 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:34:56 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:34:56 **** Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:12:49: error: invalid operands to binary expression ('std::__1::basic_string<char>' and 'int')
+        std::string info = "Name: " + name + "; age: " + age;
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4015:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'int')
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:640:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1044:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
+operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1400:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3967:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3980:1: note: candidate template ignored: could not match 'const _CharT *' against 'std::__1::basic_string<char>'
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3992:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4003:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
+^
+1 error generated.
+make: *** [src/String Streams.o] Error 1
+14:34:57 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:34:57 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:34:57 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:34:57 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:35:10 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:12:49: error: invalid operands to binary expression ('std::__1::basic_string<char>' and 'int')
+        std::string info = "Name: " + name + "; age: " + age;
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4015:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'int')
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:640:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1044:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
+operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1400:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3967:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3980:1: note: candidate template ignored: could not match 'const _CharT *' against 'std::__1::basic_string<char>'
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3992:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4003:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
+^
+1 error generated.
+make: *** [src/String Streams.o] Error 1
+14:37:40 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:11:6: warning: unused variable 'age' [-Wunused-variable]
+        int age = 32;
+            ^
+1 warning generated.
+Finished building: ../src/String Streams.cpp
+ 
+Building target: String Streams
+Invoking: MacOS X C++ Linker
+g++  -o "String Streams"  ./src/String\ Streams.o   
+Finished building target: String Streams
+ 
+14:38:40 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:13:2: error: unknown type name 'stringstream'; did you mean 'std::stringstream'?
+        stringstream ss;
+        ^~~~~~~~~~~~
+        std::stringstream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:153:38: note: 'std::stringstream' declared here
+typedef basic_stringstream<char>     stringstream;
+                                     ^
+1 error generated.
+make: *** [src/String Streams.o] Error 1
+14:38:59 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:38:59 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:38:59 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:38:59 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:38:59 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:39:00 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:39:01 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:39:02 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:39:02 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:39:02 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:39:02 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:39:02 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:13:2: error: unknown type name 'stringstream'; did you mean 'std::stringstream'?
+        stringstream ss;
+        ^~~~~~~~~~~~
+        std::stringstream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:153:38: note: 'std::stringstream' declared here
+typedef basic_stringstream<char>     stringstream;
+                                     ^
+1 error generated.
+make: *** [src/String Streams.o] Error 1
+14:39:03 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:39:03 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:39:03 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:39:03 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:39:10 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:11:6: warning: unused variable 'age' [-Wunused-variable]
+        int age = 32;
+            ^
+1 warning generated.
+Finished building: ../src/String Streams.cpp
+ 
+Building target: String Streams
+Invoking: MacOS X C++ Linker
+g++  -o "String Streams"  ./src/String\ Streams.o   
+Finished building target: String Streams
+ 
+14:39:25 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:15:35: error: invalid operands to binary expression ('std::__1::basic_string<char>' and 'int')
+        ss = "Name: " + name + "; age: " + age;
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4015:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'int')
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:640:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1044:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
+operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1400:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3967:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3980:1: note: candidate template ignored: could not match 'const _CharT *' against 'std::__1::basic_string<char>'
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3992:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:4003:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
+^
+../src/String Streams.cpp:16:15: error: use of undeclared identifier 'info'
+        std::cout << info << std::endl;
+                     ^
+2 errors generated.
+make: *** [src/String Streams.o] Error 1
+14:40:41 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+../src/String Streams.cpp:20:2: error: use of undeclared identifier 'cout'; did you mean 'std::cout'?
+        cout << ss.str() << endl;
+        ^~~~
+        std::cout
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream:54:33: note: 'std::cout' declared here
+extern _LIBCPP_FUNC_VIS ostream cout;
+                                ^
+../src/String Streams.cpp:20:22: error: use of undeclared identifier 'endl'; did you mean 'std::endl'?
+        cout << ss.str() << endl;
+                            ^~~~
+                            std::endl
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: 'std::endl' declared here
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [src/String Streams.o] Error 1
+14:40:49 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+Finished building: ../src/String Streams.cpp
+ 
+Building target: String Streams
+Invoking: MacOS X C++ Linker
+g++  -o "String Streams"  ./src/String\ Streams.o   
+Finished building target: String Streams
+ 
+14:41:14 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+Finished building: ../src/String Streams.cpp
+ 
+Building target: String Streams
+Invoking: MacOS X C++ Linker
+g++  -o "String Streams"  ./src/String\ Streams.o   
+Finished building target: String Streams
+ 
+14:43:33 **** Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:44:41 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+In file included from ../Person.cpp:8:
+../Person.h:13:2: error: use of undeclared identifier 'std'
+        std::string name;
+        ^
+../Person.h:13:14: warning: private field 'name' is not used [-Wunused-private-field]
+        std::string name;
+                    ^
+../Person.h:14:6: warning: private field 'age' is not used [-Wunused-private-field]
+        int age;
+            ^
+2 warnings and 1 error generated.
+make: *** [Person.o] Error 1
+14:44:59 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+In file included from ../Person.cpp:8:
+../Person.h:16:6: warning: private field 'age' is not used [-Wunused-private-field]
+        int age;
+            ^
+1 warning generated.
+Finished building: ../Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o  ./Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:46:32 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+../Person.cpp:20:7: error: no type named 'streamstream' in namespace 'std'; did you mean 'stringstream'?
+        std::streamstream ss;
+        ~~~~~^~~~~~~~~~~~
+             stringstream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:153:38: note: 'stringstream' declared here
+typedef basic_stringstream<char>     stringstream;
+                                     ^
+1 error generated.
+make: *** [Person.o] Error 1
+14:47:38 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:47:38 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:47:38 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:47:39 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:47:39 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+../Person.cpp:19:7: error: no type named 'streamstream' in namespace 'std'; did you mean 'stringstream'?
+        std::streamstream ss;
+        ~~~~~^~~~~~~~~~~~
+             stringstream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:153:38: note: 'stringstream' declared here
+typedef basic_stringstream<char>     stringstream;
+                                     ^
+1 error generated.
+make: *** [Person.o] Error 1
+14:47:39 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:47:39 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:47:39 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+14:47:40 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:47:41 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:47:43 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:47:46 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+../Person.cpp:19:7: error: no type named 'streamstream' in namespace 'std'; did you mean 'stringstream'?
+        std::streamstream ss;
+        ~~~~~^~~~~~~~~~~~
+             stringstream
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:153:38: note: 'stringstream' declared here
+typedef basic_stringstream<char>     stringstream;
+                                     ^
+1 error generated.
+make: *** [Person.o] Error 1
+14:48:10 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Person.d" -MT"Person.o" -o "Person.o" "../Person.cpp"
+Finished building: ../Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o  ./Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:49:03 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+../src/Constructor Parameters and Overloading.cpp:6:10: fatal error: 'Person.h' file not found
+#include "Person.h"
+         ^
+1 error generated.
+make: *** [src/Constructor Parameters and Overloading.o] Error 1
+14:49:31 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:49:34 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+14:51:51 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:53:02 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+../src/Constructor Parameters and Overloading.cpp:11:9: error: no matching constructor for initialization of 'Person'
+        Person person2("Bob");
+               ^       ~~~~~
+../src/Person.h:13:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [4]' to 'const Person' for 1st argument
+class Person {
+      ^
+../src/Person.h:18:2: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+        Person();
+        ^
+../src/Person.h:19:2: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+        Person(std::string newName, int age){ name = newName; age = 0; };
+        ^
+1 error generated.
+make: *** [src/Constructor Parameters and Overloading.o] Error 1
+14:53:19 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+../src/Constructor Parameters and Overloading.cpp:11:9: error: no matching constructor for initialization of 'Person'
+        Person person2("Bob");
+               ^       ~~~~~
+../src/Person.h:13:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [4]' to 'const Person' for 1st argument
+class Person {
+      ^
+../src/Person.h:18:2: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+        Person();
+        ^
+../src/Person.h:19:2: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+        Person(std::string newName, int age){ name = newName; age = 0; };
+        ^
+1 error generated.
+make: *** [src/Constructor Parameters and Overloading.o] Error 1
+14:54:10 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:54:58 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+14:57:37 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+15:11:02 **** Build of configuration Debug for project This ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+../src/Person.cpp:9:2: error: invalid preprocessing directive
+#inlcude <sstream>
+ ^
+../src/Person.cpp:17:20: error: implicit instantiation of undefined template 'std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >'
+        std::stringstream ss;
+                          ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:126:33: note: template is declared here
+    class _LIBCPP_TYPE_VIS_ONLY basic_stringstream;
+                                ^
+2 errors generated.
+make: *** [src/Person.o] Error 1
+15:11:27 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+../src/Person.cpp:9:2: error: invalid preprocessing directive
+#inlcude <sstream>
+ ^
+../src/Person.cpp:17:20: error: implicit instantiation of undefined template 'std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >'
+        std::stringstream ss;
+                          ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iosfwd:126:33: note: template is declared here
+    class _LIBCPP_TYPE_VIS_ONLY basic_stringstream;
+                                ^
+2 errors generated.
+make: *** [src/Person.o] Error 1
+15:11:35 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/Person.o ./src/This.o   
+Finished building target: This
+ 
+15:11:37 **** Incremental Build of configuration Debug for project This ****
+make all 
+make: Nothing to be done for `all'.

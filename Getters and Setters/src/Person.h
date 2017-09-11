@@ -17,7 +17,7 @@ public:
 	Person();
 	std::string toString();
 	void setName(std::string newName);
-	std::string getName():
+	std::string getName();
 };
 
 #endif /* SRC_PERSON_H_ */
