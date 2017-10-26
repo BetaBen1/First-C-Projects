@@ -15,8 +15,8 @@ private:
 	std::string name;
 	int age;
 public:
-	Person();
-	Person(std::string name, int age);
+	Person(): name("Unnamed"), age(0) {};
+	Person(std::string name, int age): name(name), age(age) {};
 	std::string toString();
 	virtual ~Person();
 };
