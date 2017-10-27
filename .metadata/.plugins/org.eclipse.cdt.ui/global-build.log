@@ -5231,3 +5231,480 @@ Invoking: MacOS X C++ Linker
 g++  -o "Pointers"  ./src/Main.o   
 Finished building target: Pointers
  
+14:23:39 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+14:26:42 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:9:10: error: assigning to 'double *' from incompatible type 'double'
+        value = 10.0;
+                ^~~~
+../src/Main.cpp:29:2: error: no matching function for call to 'manipulate'
+        manipulate(*dpValue);
+        ^~~~~~~~~~
+../src/Main.cpp:7:6: note: candidate function not viable: no known conversion from 'double' to 'double *' for 1st argument; remove *
+void manipulate(double *value){
+     ^
+2 errors generated.
+make: *** [src/Main.o] Error 1
+14:27:19 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers"  ./src/Main.o   
+Finished building target: Pointers
+ 
+14:27:22 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+14:28:00 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers"  ./src/Main.o   
+Finished building target: Pointers
+ 
+14:28:09 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers"  ./src/Main.o   
+Finished building target: Pointers
+ 
+14:28:22 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers"  ./src/Main.o   
+Finished building target: Pointers
+ 
+14:31:51 **** Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:31:53 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+make: Nothing to be done for `all'.
+14:31:59 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:32:05 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:32:10 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:32:28 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:32:48 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:33:39 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:12:11: error: expected ';' at end of declaration
+        int value 2 = 7.3;
+                 ^
+                 ;
+../src/Main.cpp:13:15: error: use of undeclared identifier 'value2'
+        std::cout << value2 << std::endl;
+                     ^
+2 errors generated.
+make: *** [src/Main.o] Error 1
+14:33:55 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:12:15: warning: implicit conversion from 'double' to 'int' changes value from 7.3 to 7 [-Wliteral-conversion]
+        int value2 = 7.3;
+            ~~~~~~   ^~~
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:34:07 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:35:47 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:36:27 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:37:26 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:38:34 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:40:02 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:26:28: error: invalid operands to binary expression ('double' and 'double')
+        double equation = ((5.3/4)%2)+(2*6);
+                           ~~~~~~~^~
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:40:25 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:40:33 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+14:46:08 **** Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:46:12 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:46:18 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:46:22 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:46:24 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:46:48 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:48:02 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:16:24: error: expected ';' after expression
+                std::cout << texts[i] std::endl;
+                                     ^
+                                     ;
+../src/Main.cpp:16:25: error: reference to overloaded function could not be resolved; did you mean to call it?
+                std::cout << texts[i] std::endl;
+                                      ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ostream:1001:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [src/Main.o] Error 1
+14:48:24 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:48:35 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:49:56 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:51:31 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:21:16: error: indirection requires pointer operand ('std::string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') invalid)
+                std::cout << *pTexts[i] << " " << std::flush;
+                             ^~~~~~~~~~
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:51:52 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:52:33 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:52:58 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:53:27 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:22:31: error: expected ')'
+        for (int i = 0; i < size; i++; pTexts++) {
+                                     ^
+../src/Main.cpp:22:6: note: to match this '('
+        for (int i = 0; i < size; i++; pTexts++) {
+            ^
+../src/Main.cpp:22:41: error: expected ';' after expression
+        for (int i = 0; i < size; i++; pTexts++) {
+                                               ^
+                                               ;
+../src/Main.cpp:22:41: error: expected expression
+3 errors generated.
+make: *** [src/Main.o] Error 1
+14:53:40 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:55:39 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:29:15: warning: unused variable 'pEnd' [-Wunused-variable]
+        std::string *pEnd = &texts[2];
+                     ^
+../src/Main.cpp:28:15: warning: unused variable 'pElement' [-Wunused-variable]
+        std::string *pElement = texts;
+                     ^
+2 warnings generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:58:43 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 
+14:59:02 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Main.o   
+Finished building target: Pointers and Arrays
+ 

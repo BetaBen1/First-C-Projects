@@ -4,10 +4,10 @@
 
 #include <iostream>
 
-void manipulate(double value){
-	std::cout << "2. Value of double before manipulate: " << value << std::endl;
-	value = 10.0;
-	std::cout << "3. Value of double in manipulate: " << value << std::endl;
+void manipulate(double *pValue){
+	std::cout << "2. Value of double before/during manipulate: " << *pValue << std::endl;
+	*pValue = 10.0;
+	std::cout << "3. Value of double during/after manipulate: " << *pValue << std::endl;
 }
 
 int main(){
@@ -23,9 +23,10 @@ int main(){
 
 	std::cout << "========================" << std::endl;
 	double dValue = 123.4;
+	double *dpValue = &dValue;
 
 	std::cout << "1. dValue: " << dValue << std::endl;
-	manipulate(dValue);
+	manipulate(dpValue);
 	std::cout << "4. dValue: " << dValue << std::endl;
 
 	return 0;
