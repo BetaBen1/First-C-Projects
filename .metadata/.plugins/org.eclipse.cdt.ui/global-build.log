@@ -5708,3 +5708,400 @@ Invoking: MacOS X C++ Linker
 g++  -o "Pointers and Arrays"  ./src/Main.o   
 Finished building target: Pointers and Arrays
  
+14:48:44 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:51:36 **** Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:51:48 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+14:51:50 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:54:48 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:56:11 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:58:13 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:22:15: error: no viable conversion from 'std::string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'std::string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *')
+        std::string *pEnd = texts[NSTRINGS-1];
+                     ^      ~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string:818:5: note: candidate function
+    operator __self_view() const _NOEXCEPT { return __self_view(data(), size()); }
+    ^
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:58:26 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:58:57 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+14:59:13 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:01:29 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:02:25 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:03:55 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:04:01 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:05:02 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Main.o   
+Finished building target: Pointer Arithmetic
+ 
+15:05:03 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+15:05:05 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Arithmetic Operators
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic Operators"  ./src/Main.o   
+Finished building target: Arithmetic Operators
+ 
+15:05:05 **** Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:05 **** Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+15:05:05 **** Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Constructor Initialization Lists ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+15:05:06 **** Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:07 **** Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+15:05:08 **** Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+15:05:09 **** Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+15:05:09 **** Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+15:05:09 **** Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/Person.o ./src/This.o   
+Finished building target: This
+ 
+15:05:09 **** Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+15:05:09 **** Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+15:05:15 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+15:05:16 **** Incremental Build of configuration Debug for project Constructor Initialization Lists ****
+make all 
+make: Nothing to be done for `all'.
+15:05:16 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+15:05:16 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+15:05:16 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+15:05:16 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+15:05:17 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:18 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+15:05:19 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+15:05:20 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+15:05:20 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+15:05:20 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+15:05:20 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+15:05:20 **** Incremental Build of configuration Debug for project This ****
+make all 
+make: Nothing to be done for `all'.
+15:05:21 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+15:05:21 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
