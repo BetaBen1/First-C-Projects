@@ -6105,3 +6105,568 @@ make: Nothing to be done for `all'.
 15:05:21 **** Incremental Build of configuration Debug for project While Loops ****
 make all 
 make: Nothing to be done for `all'.
+14:32:06 **** Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:32:10 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:32:25 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:33:27 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:33:49 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:33:53 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:34:01 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:34:46 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:34:58 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:38:05 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Main.o   
+Finished building target: Char Arrays
+ 
+14:43:13 **** Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:14:8: error: cannot initialize a variable of type 'char *' with an lvalue of type 'int'
+        char *pEnd = len;
+              ^      ~~~
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:43:39 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:14:22: error: use of undeclared identifier 'nChars'
+        char *pEnd = text + nChars - 1;
+                            ^
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:44:01 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:13:8: warning: unused variable 'pStart' [-Wunused-variable]
+        char *pStart = text;
+              ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Main.o   
+Finished building target: Reversing a String
+ 
+14:44:03 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+make: Nothing to be done for `all'.
+14:46:40 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:20:8: warning: unused variable 'save' [-Wunused-variable]
+                char save = *pStart;
+                     ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Main.o   
+Finished building target: Reversing a String
+ 
+14:46:50 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Main.o   
+Finished building target: Reversing a String
+ 
+14:48:02 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Main.o   
+Finished building target: Reversing a String
+ 
+14:48:08 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Main.o   
+Finished building target: Reversing a String
+ 
+14:52:18 **** Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:52:23 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+make: Nothing to be done for `all'.
+14:52:23 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:52:24 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:52:24 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:52:24 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:52:24 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:52:24 **** Incremental Build of configuration Debug for project Constructor Initialization Lists ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:52:25 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:52:26 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:52:26 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:52:26 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+14:52:26 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:52:26 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:52:27 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:52:28 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+14:52:28 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+14:52:28 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:52:28 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:52:28 **** Incremental Build of configuration Debug for project References ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:52:29 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:52:30 **** Incremental Build of configuration Debug for project This ****
+make all 
+make: Nothing to be done for `all'.
+14:52:30 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:52:30 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:53:02 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:53:13 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:56:12 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:56:25 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:56:48 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:8:10: error: non-const lvalue reference to type 'double' cannot bind to a temporary of type 'double'
+        double &value2 = 123.4;
+                ^        ~~~~~
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:57:05 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+14:57:19 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/Main.o   
+Finished building target: References
+ 
+15:01:27 **** Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:02:03 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:02:08 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:19:8: error: cannot assign to variable 'value' with const-qualified type 'const int'
+        value = 10;
+        ~~~~~ ^
+../src/Main.cpp:18:12: note: variable 'value' declared const here
+        const int value = 7;
+        ~~~~~~~~~~^~~~~~~~~
+1 error generated.
+make: *** [src/Main.o] Error 1
+15:03:19 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:03:46 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:06:34 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:07:40 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:08:00 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:08:54 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:09:00 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:09:12 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
+15:10:05 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:31:10: error: read-only variable is not assignable
+        *pValue = 12;
+        ~~~~~~~ ^
+1 error generated.
+make: *** [src/Main.o] Error 1
+15:12:05 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Main.o   
+Finished building target: Const
+ 
