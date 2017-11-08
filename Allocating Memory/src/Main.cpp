@@ -1,5 +1,5 @@
 /*
- * The New Constructor
+ * Allocating Memory
  */
 
 #include <iostream>
@@ -33,12 +33,20 @@ public:
 
 int main(){
 
-	Animal *pCat1 = new Animal();
-	pCat1->setName("Freddy");
-	pCat1->speak();
-	delete pCat1;
+	Animal *pAnimal = new Animal[10];
 
-	std::cout << sizeof(pCat1) << std::endl; // Same size as a long.
+	pAnimal[5].setName("George");
+	pAnimal[5].speak();
+
+	delete [] pAnimal;
+
+	char *pMem = new char[1000];
+	delete [] pMem;
+
+	char c = 'a';
+	c++;
+	std::string name(5, c);
+	std::cout << name << std::endl;
 
 	return 0;
 }

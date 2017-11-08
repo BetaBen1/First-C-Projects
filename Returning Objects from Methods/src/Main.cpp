@@ -1,5 +1,5 @@
 /*
- * The New Constructor
+ * Returing Objects from Methods
  */
 
 #include <iostream>
@@ -31,14 +31,17 @@ public:
 	}
 };
 
+Animal *createAnimal() {
+	Animal *pAnimal = new Animal();
+	pAnimal->setName("Bertie");
+	return pAnimal;
+}
+
 int main(){
 
-	Animal *pCat1 = new Animal();
-	pCat1->setName("Freddy");
-	pCat1->speak();
-	delete pCat1;
-
-	std::cout << sizeof(pCat1) << std::endl; // Same size as a long.
+	Animal *pFrog = createAnimal();
+	pFrog->speak();
+	delete pFrog;
 
 	return 0;
 }

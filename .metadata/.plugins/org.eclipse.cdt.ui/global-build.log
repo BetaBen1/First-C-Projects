@@ -7028,3 +7028,339 @@ Invoking: MacOS X C++ Linker
 g++  -o "New"  ./src/Main.o   
 Finished building target: New
  
+14:18:06 **** Incremental Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+14:18:08 **** Incremental Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+14:18:09 **** Incremental Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+14:18:52 **** Incremental Build of configuration Debug for project New ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: New
+Invoking: MacOS X C++ Linker
+g++  -o "New"  ./src/Main.o   
+Finished building target: New
+ 
+14:21:32 **** Incremental Build of configuration Debug for project Arithmetic Operators ****
+make all 
+make: Nothing to be done for `all'.
+14:21:32 **** Incremental Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:21:33 **** Incremental Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+14:21:33 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:21:33 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+14:21:33 **** Incremental Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+14:21:33 **** Incremental Build of configuration Debug for project Const ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Constructor Initialization Lists ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Copy Constructors ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+14:21:34 **** Incremental Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+14:21:36 **** Incremental Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:21:37 **** Incremental Build of configuration Debug for project New ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: New
+Invoking: MacOS X C++ Linker
+g++  -o "New"  ./src/Main.o   
+Finished building target: New
+ 
+14:21:37 **** Incremental Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+14:21:37 **** Incremental Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+14:21:37 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project References ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+14:21:38 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project This ****
+make all 
+make: Nothing to be done for `all'.
+14:21:39 **** Incremental Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+14:21:40 **** Incremental Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+14:21:40 **** Incremental Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+14:21:41 **** Incremental Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+14:22:24 **** Incremental Build of configuration Debug for project New ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: New
+Invoking: MacOS X C++ Linker
+g++  -o "New"  ./src/Main.o   
+Finished building target: New
+ 
+14:27:33 **** Incremental Build of configuration Debug for project New ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: New
+Invoking: MacOS X C++ Linker
+g++  -o "New"  ./src/Main.o   
+Finished building target: New
+ 
+14:29:49 **** Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Returning Objects from Methods
+Invoking: MacOS X C++ Linker
+g++  -o "Returning Objects from Methods"  ./src/Main.o   
+Finished building target: Returning Objects from Methods
+ 
+14:33:48 **** Incremental Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:42:16: error: use of undeclared identifier 'createAnimlal'; did you mean 'createAnimal'?
+        Animal frog = createAnimlal();
+                      ^~~~~~~~~~~~~
+                      createAnimal
+../src/Main.cpp:34:8: note: 'createAnimal' declared here
+Animal createAnimal() {
+       ^
+1 error generated.
+make: *** [src/Main.o] Error 1
+14:34:05 **** Incremental Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Returning Objects from Methods
+Invoking: MacOS X C++ Linker
+g++  -o "Returning Objects from Methods"  ./src/Main.o   
+Finished building target: Returning Objects from Methods
+ 
+14:34:25 **** Incremental Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+make: Nothing to be done for `all'.
+14:38:53 **** Incremental Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:37:9: warning: reference to stack memory associated with local variable 'a' returned [-Wreturn-stack-address]
+        return a;
+               ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: Returning Objects from Methods
+Invoking: MacOS X C++ Linker
+g++  -o "Returning Objects from Methods"  ./src/Main.o   
+Finished building target: Returning Objects from Methods
+ 
+14:41:20 **** Incremental Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Returning Objects from Methods
+Invoking: MacOS X C++ Linker
+g++  -o "Returning Objects from Methods"  ./src/Main.o   
+Finished building target: Returning Objects from Methods
+ 
+14:47:37 **** Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:48:21 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:51:22 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:52:03 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:52:46 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:53:07 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
+14:55:31 **** Incremental Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Main.o   
+Finished building target: Allocating Memory
+ 
