@@ -1,14 +1,13 @@
 /*
- * Cat.cpp
+ * Animal.cpp
  *
- *  Created on: Nov 8, 2017
+ *  Created on: Nov 9, 2017
  *      Author: Ben
  */
 
-#include "Cat.h"
+#include "Animal.h"
 
-namespace cats {
-
+namespace betaben {
 
 Cat::Cat() {
 	// TODO Auto-generated constructor stub
@@ -20,7 +19,7 @@ Cat::~Cat() {
 }
 
 void Cat::speak(){
-	std::cout << "Meoooww!" << std::endl;
+	std::cout << "Hisssss" << std::endl;
 }
 
-}
+} /* namespace betaben */

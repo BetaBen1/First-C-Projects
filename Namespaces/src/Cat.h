@@ -5,8 +5,14 @@
  *      Author: Ben
  */
 
+#include <iostream>
+
 #ifndef SRC_CAT_H_
 #define SRC_CAT_H_
+
+namespace cats {
+
+const std::string CATNAME = "Freddy";
 
 class Cat {
 public:
@@ -15,5 +21,7 @@ public:
 
 	void speak();
 };
+
+}
 
 #endif /* SRC_CAT_H_ */
