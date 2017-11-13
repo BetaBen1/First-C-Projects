@@ -1,15 +1,15 @@
-14:52:33 **** Build of configuration Debug for project Twos ****
+14:42:14 **** Incremental Build of configuration Debug for project Static ****
+make all 
+make: Nothing to be done for `all'.
+14:42:35 **** Incremental Build of configuration Debug for project Static ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
 Finished building: ../src/Main.cpp
  
-Building target: Twos
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Twos"  ./src/Main.o   
-Finished building target: Twos
+g++  -o "Static"  ./src/Main.o   
+Finished building target: Static
  
-14:52:34 **** Incremental Build of configuration Debug for project Twos ****
-make all 
-make: Nothing to be done for `all'.
