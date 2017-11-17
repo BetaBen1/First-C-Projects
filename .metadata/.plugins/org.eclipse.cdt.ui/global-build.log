@@ -1,15 +1,18 @@
-14:42:14 **** Incremental Build of configuration Debug for project Static ****
+15:09:14 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 make: Nothing to be done for `all'.
-14:42:35 **** Incremental Build of configuration Debug for project Static ****
+15:11:06 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
 Finished building: ../src/Main.cpp
  
-Building target: Static
+Building target: SDL Basic
 Invoking: MacOS X C++ Linker
-g++  -o "Static"  ./src/Main.o   
-Finished building target: Static
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o   -lSDL2
+Finished building target: SDL Basic
  
+15:11:09 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
