@@ -1,6 +1,6 @@
-14:21:37 **** Incremental Build of configuration Debug for project Other Data Types ****
+15:07:03 **** Build of configuration Debug for project Other Data Types ****
 make all 
 make: Nothing to be done for `all'.
 
-14:21:37 Build Finished (took 70ms)
+15:07:03 Build Finished (took 73ms)
 

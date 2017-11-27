@@ -1,6 +1,6 @@
-14:21:36 **** Incremental Build of configuration Release for project Inputting Text ****
+15:07:02 **** Build of configuration Release for project Inputting Text ****
 make all 
 make: Nothing to be done for `all'.
 
-14:21:36 Build Finished (took 75ms)
+15:07:02 Build Finished (took 71ms)
 

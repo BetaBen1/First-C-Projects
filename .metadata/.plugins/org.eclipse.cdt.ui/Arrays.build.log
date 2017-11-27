@@ -1,6 +1,6 @@
-14:21:32 **** Incremental Build of configuration Debug for project Arrays ****
+15:06:59 **** Build of configuration Debug for project Arrays ****
 make all 
 make: Nothing to be done for `all'.
 
-14:21:32 Build Finished (took 72ms)
+15:07:00 Build Finished (took 71ms)
 
