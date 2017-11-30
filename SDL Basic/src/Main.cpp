@@ -23,6 +23,9 @@ int main(){
 		return 1;
 	}
 
+	SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);
+	SDL_Texture *texture = SDL_CreateTexture(window, SDL_PIXELFORMAT_RGBA8888, );
+
 	bool quit = false;
 	SDL_Event event;
 
