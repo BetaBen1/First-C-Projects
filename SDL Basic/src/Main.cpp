@@ -24,7 +24,26 @@ int main(){
 	}
 
 	SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);
-	SDL_Texture *texture = SDL_CreateTexture(window, SDL_PIXELFORMAT_RGBA8888, );
+	SDL_Texture *texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STATIC, SCREEN_WIDTH, SCREEN_HEIGHT);
+
+	if(renderer == NULL) {
+		std::cout << "Could not create renderer" << std::endl;
+		SDL_DestroyWindow(window);
+		SDL_Quit();
+		return 3;
+	}
+
+	if(texture == NULL){
+		std::cout << "Could not create texture" << std::endl;
+		SDL_DestroyRenderer(renderer);
+		SDL_DestroyWindow(window);
+		SDL_Quit();
+		return 4;
+	}
+
+	Uint32 *buffer = new Uint32[SCREEN_WIDTH*SCREEN_HEIGHT];
+
+	SDL_UpdateTexture(texture, NULL, buffer, SCREEN_WIDTH*sizeof(Uint32));
 
 	bool quit = false;
 	SDL_Event event;
@@ -42,6 +61,9 @@ int main(){
 
 	}
 
+	delete [] buffer;
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyTexture(texture);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
 
