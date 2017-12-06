@@ -1,6 +1,6 @@
-15:07:01 **** Build of configuration Debug for project For Loops ****
+14:52:05 **** Incremental Build of configuration Debug for project For Loops ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:01 Build Finished (took 77ms)
+14:52:05 Build Finished (took 76ms)
 

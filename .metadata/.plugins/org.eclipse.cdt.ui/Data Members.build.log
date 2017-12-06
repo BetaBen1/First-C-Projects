@@ -1,6 +1,6 @@
-15:07:01 **** Build of configuration Debug for project Data Members ****
+14:52:04 **** Incremental Build of configuration Debug for project Data Members ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:01 Build Finished (took 71ms)
+14:52:04 Build Finished (took 77ms)
 

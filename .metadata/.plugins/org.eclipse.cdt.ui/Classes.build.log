@@ -1,6 +1,6 @@
-15:07:00 **** Build of configuration Debug for project Classes ****
+14:52:03 **** Incremental Build of configuration Debug for project Classes ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:00 Build Finished (took 75ms)
+14:52:03 Build Finished (took 74ms)
 

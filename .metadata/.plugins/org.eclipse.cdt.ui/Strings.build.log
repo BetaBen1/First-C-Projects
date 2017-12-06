@@ -1,6 +1,6 @@
-15:07:05 **** Build of configuration Debug for project Strings ****
+14:52:10 **** Incremental Build of configuration Debug for project Strings ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:05 Build Finished (took 80ms)
+14:52:10 Build Finished (took 77ms)
 

@@ -1,6 +1,6 @@
-15:07:00 **** Build of configuration Debug for project Comples Conditions ****
+14:52:03 **** Incremental Build of configuration Debug for project Comples Conditions ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:00 Build Finished (took 73ms)
+14:52:04 Build Finished (took 80ms)
 

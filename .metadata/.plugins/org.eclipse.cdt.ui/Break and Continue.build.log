@@ -1,6 +1,6 @@
-15:07:00 **** Build of configuration Debug for project Break and Continue ****
+14:52:03 **** Incremental Build of configuration Debug for project Break and Continue ****
 make all 
 make: Nothing to be done for `all'.
 
-15:07:00 Build Finished (took 70ms)
+14:52:03 Build Finished (took 80ms)
 
