@@ -1,10 +1,19 @@
-15:12:49 **** Incremental Build of configuration Debug for project Bit Shifting ****
+15:04:49 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:17:9: error: expected expression
-        color =<< 8;
-               ^
-1 error generated.
-make: *** [src/Main.o] Error 1
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:04:50 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
