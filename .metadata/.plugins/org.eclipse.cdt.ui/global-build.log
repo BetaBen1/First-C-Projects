@@ -17,3 +17,484 @@ Finished building target: SDL Basic
 15:04:50 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 make: Nothing to be done for `all'.
+12:12:05 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:12:20 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
+12:13:11 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:13:14 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
+12:13:30 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:15:41 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:16:00 **** Build of configuration Debug for project Allocating Memory ****
+make all 
+make: Nothing to be done for `all'.
+12:16:00 **** Build of configuration Debug for project Arithmetic Operators ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Arrays ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Arrays and Functions ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Incremental Build of configuration Debug for project Bit Shifting ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Break and Continue ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Char Arrays ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Comples Conditions ****
+make all 
+make: Nothing to be done for `all'.
+12:16:01 **** Build of configuration Debug for project Const ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Constructor Initialization Lists ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Constructors and Destructors ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Copy Constructors ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Data Members ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Do-While ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Encapsulation ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project Floating Point Types ****
+make all 
+make: Nothing to be done for `all'.
+12:16:02 **** Build of configuration Debug for project For Loops ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project Function Parameters ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project Functions ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project Getters and Setters ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Release for project Hello World ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project If Statements ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project If-Else Statements ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Debug for project Inheritance and Construction ****
+make all 
+make: Nothing to be done for `all'.
+12:16:03 **** Build of configuration Release for project Inputting Text ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Integer Types ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Multidimensional Arrays ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Namespaces ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project New ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Other Data Types ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Outputting Text ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Pointers ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Pointers and Arrays ****
+make all 
+make: Nothing to be done for `all'.
+12:16:04 **** Build of configuration Debug for project Prototypes and Includes ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Build of configuration Debug for project References ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Build of configuration Debug for project Return ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Build of configuration Debug for project Returning Objects from Methods ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Build of configuration Debug for project Reversing a String ****
+make all 
+make: Nothing to be done for `all'.
+12:16:05 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:16:06 **** Build of configuration Debug for project SizeOf ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project Static ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project String Streams ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project Strings ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project Switch ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project This ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project Twos ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project Variables ****
+make all 
+make: Nothing to be done for `all'.
+12:16:06 **** Build of configuration Debug for project While Loops ****
+make all 
+make: Nothing to be done for `all'.
+12:16:30 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
+12:16:41 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:16:54 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:17:31 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:17:42 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:18:04 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:18:42 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:19:08 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:19:17 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:19:49 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:21:23 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:21:58 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:22:42 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Screen.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Screen.d" -MT"src/Screen.o" -o "src/Screen.o" "../src/Screen.cpp"
+Finished building: ../src/Screen.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:23:03 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Screen.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Screen.d" -MT"src/Screen.o" -o "src/Screen.o" "../src/Screen.cpp"
+Finished building: ../src/Screen.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 
+12:26:37 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:17:6: warning: unused variable 'max' [-Wunused-variable]
+        int max = 0;
+            ^
+1 warning generated.
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Screen.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Screen.d" -MT"src/Screen.o" -o "src/Screen.o" "../src/Screen.cpp"
+Finished building: ../src/Screen.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+Finished building target: SDL Basic
+ 

@@ -1,6 +1,6 @@
-14:52:05 **** Incremental Build of configuration Debug for project Function Parameters ****
+12:16:03 **** Build of configuration Debug for project Function Parameters ****
 make all 
 make: Nothing to be done for `all'.
 
-14:52:05 Build Finished (took 78ms)
+12:16:03 Build Finished (took 73ms)
 

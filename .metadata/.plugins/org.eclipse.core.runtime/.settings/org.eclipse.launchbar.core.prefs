@@ -16,3 +16,4 @@ org.eclipse.launchbar.core.descriptorType.default\:Hello\ World/activeLaunchTarg
 org.eclipse.launchbar.core.descriptorType.default\:Integer\ Types/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:References/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:References/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SDL\ Basic/activeLaunchMode=run
