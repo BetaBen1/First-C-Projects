@@ -1,349 +1,69 @@
-14:53:41 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:06:22 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
 g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:25:7: warning: unused variable 'elapsed' [-Wunused-variable]
-                int elapsed = SDL_GetTicks();
-                    ^
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
+../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
+#include "Swarm.h""
+                  ^
+../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "Swarm.h""
+                  ^
+                  //
+../src/Main.cpp:38:8: warning: unused variable 'x' [-Wunused-variable]
+                        int x = (pParticle.m_x + 1)*(Screen::SCREEN_WIDTH/2);
+                            ^
+../src/Main.cpp:39:8: warning: unused variable 'y' [-Wunused-variable]
+                        int y = (pParticle.m_y + 1)*(Screen::SCREEN_HEIGHT/2);
+                            ^
+4 warnings generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:08:36 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
+#include "Swarm.h""
+                  ^
+../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "Swarm.h""
+                  ^
+                  //
 2 warnings generated.
 Finished building: ../src/Main.cpp
  
 Building target: SDL Basic
 Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-14:53:43 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:09:51 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
+#include "Swarm.h""
+                  ^
+../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "Swarm.h""
+                  ^
+                  //
+2 warnings generated.
+Finished building: ../src/Main.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:10:11 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 make: Nothing to be done for `all'.
-14:54:45 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-14:55:18 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-14:55:58 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:27:7: error: redefinition of 'elapsed'
-                int elapsed 3 = SDL_GetTicks();
-                    ^
-../src/Main.cpp:25:7: note: previous definition is here
-                int elapsed = SDL_GetTicks();
-                    ^
-../src/Main.cpp:27:14: error: expected ';' at end of declaration
-                int elapsed 3 = SDL_GetTicks();
-                           ^
-                           ;
-../src/Main.cpp:30:23: error: use of undeclared identifier 'elapsed3'
-                int blue = (1 + sin(elapsed3 * 0.001)) * 128;
-                                    ^
-3 errors generated.
-make: *** [src/Main.o] Error 1
-14:56:09 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-14:56:34 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-14:58:29 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-14:59:52 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:01:57 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:18:6: warning: unused variable 'max' [-Wunused-variable]
-        int max = 0;
-            ^
-1 warning generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:03:05 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:24:7: warning: unused variable 'red' [-Wunused-variable]
-                int red = (1 + sin(elapsed * 0.0002)) * 128;
-                    ^
-../src/Main.cpp:26:7: warning: unused variable 'blue' [-Wunused-variable]
-                int blue = (1 + sin(elapsed * 0.0003)) * 128;
-                    ^
-2 warnings generated.
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:03:21 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:04:17 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:04:43 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:04:56 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:05:14 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:05:44 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:06:18 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:06:36 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:06:50 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:06:58 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:07:34 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:07:54 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:08:22 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:08:37 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
-15:08:58 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Screen.o   -lSDL2
-Finished building target: SDL Basic
- 
