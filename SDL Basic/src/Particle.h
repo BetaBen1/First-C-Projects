@@ -16,6 +16,7 @@ struct Particle {
 public:
 	Particle();
 	virtual ~Particle();
+	void update();
 };
 
 } /* namespace betaben */

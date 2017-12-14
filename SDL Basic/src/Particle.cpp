@@ -21,4 +21,14 @@ Particle::~Particle() {
 	// TODO Auto-generated destructor stub
 }
 
+void Particle::update(){
+	const double xSpeed = 0.01 * (2.0 * rand()/RAND_MAX - 1);
+	const double ySpeed = 0.01 * (2.0 * rand()/RAND_MAX - 1);
+
+	m_x += xSpeed;
+	m_y += ySpeed;
+
+
+}
+
 } /* namespace betaben */

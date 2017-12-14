@@ -1,75 +1,123 @@
-15:06:22 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:06:35 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
 g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
-#include "Swarm.h""
-                  ^
-../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
-#include "Swarm.h""
-                  ^
-                  //
-../src/Main.cpp:38:8: warning: unused variable 'x' [-Wunused-variable]
-                        int x = (pParticle.m_x + 1)*(Screen::SCREEN_WIDTH/2);
-                            ^
-../src/Main.cpp:39:8: warning: unused variable 'y' [-Wunused-variable]
-                        int y = (pParticle.m_y + 1)*(Screen::SCREEN_HEIGHT/2);
-                            ^
-4 warnings generated.
 Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building file: ../src/Screen.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Screen.d" -MT"src/Screen.o" -o "src/Screen.o" "../src/Screen.cpp"
+Finished building: ../src/Screen.cpp
  
 Building target: SDL Basic
 Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-15:08:36 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:06:37 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
-Building file: ../src/Main.cpp
+make: Nothing to be done for `all'.
+15:09:07 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
 Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
-#include "Swarm.h""
-                  ^
-../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
-#include "Swarm.h""
-                  ^
-                  //
-2 warnings generated.
-Finished building: ../src/Main.cpp
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
  
 Building target: SDL Basic
 Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-15:09:51 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:10:38 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
-Building file: ../src/Main.cpp
+make: Nothing to be done for `all'.
+15:11:06 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
 Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-../src/Main.cpp:11:19: warning: missing terminating '"' character [-Winvalid-pp-token]
-#include "Swarm.h""
-                  ^
-../src/Main.cpp:11:19: warning: extra tokens at end of #include directive [-Wextra-tokens]
-#include "Swarm.h""
-                  ^
-                  //
-2 warnings generated.
-Finished building: ../src/Main.cpp
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
  
 Building target: SDL Basic
 Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-15:10:11 **** Incremental Build of configuration Debug for project SDL Basic ****
+15:12:15 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
-make: Nothing to be done for `all'.
-14:40:32 **** Incremental Build of configuration Debug for project SDL Basic ****
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:12:25 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
-make: Nothing to be done for `all'.
-15:10:19 **** Incremental Build of configuration Debug for project SDL Basic ****
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:12:44 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+../src/Particle.cpp:25:55: error: expected ';' at end of declaration
+        const double xSpeed = 0.001 * (2.0 * rand())/RAND_MAX) - 1;
+                                                             ^
+                                                             ;
+1 error generated.
+make: *** [src/Particle.o] Error 1
+15:12:48 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:13:04 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+15:13:18 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
