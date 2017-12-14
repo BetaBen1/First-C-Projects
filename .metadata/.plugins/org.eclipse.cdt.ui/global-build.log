@@ -67,3 +67,9 @@ Finished building target: SDL Basic
 15:10:11 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 make: Nothing to be done for `all'.
+14:40:32 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
+15:10:19 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
