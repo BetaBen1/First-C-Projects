@@ -169,7 +169,7 @@ int main() {
 			break;
 		}
 
-		//SDL_Delay(30);
+		SDL_Delay(5);
 
 		std::cout << "FPS: " << framespersecond << std::endl;
 
