@@ -91,6 +91,17 @@ void fpsthink() {
 
 int main() {
 
+//	int color = 0x123456;
+//
+//	unsigned char red = (color & 0xFF0000) >> 16;
+//	unsigned char blue = (color & 0x00FF00) >> 8;
+//	unsigned char green = color & 0x0000FF;
+//
+//	std::cout << std::hex << (int)red << std::endl;
+//
+//	unsigned char redAgain = color >> 16;
+//	std::cout << std::hex << (int)redAgain << std::endl;
+
 	fpsinit();
 
 	srand(time(NULL));
@@ -103,6 +114,9 @@ int main() {
 
 	Swarm swarm ;
 
+	int screenWidth2 = Screen::SCREEN_WIDTH/2;
+	int screenHeight2 = Screen::SCREEN_HEIGHT/2;
+
 	while (true) {
 		// Update particles
 		// Draw particles
@@ -110,24 +124,24 @@ int main() {
 
 		fpsthink();
 
-		swarm.update();
+		int elapsed = SDL_GetTicks();
+
+		swarm.update(elapsed);
 
 		const Particle * const pParticles = swarm.getParticles();
-
-		int elapsed = SDL_GetTicks();
 
 		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;
 		unsigned char green = (1 + sin(elapsed * 0.0002)) * 128;
 		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
 
-		screen.clear();
+//		screen.clear();
 
 		for(int i=0; i<Swarm::NPARTICLES; i++){
 
 			Particle pParticle = pParticles[i];
 
-			int x = (pParticle.m_x + 1)*(Screen::SCREEN_WIDTH/2);
-			int y = (pParticle.m_y + 1)*(Screen::SCREEN_HEIGHT/2);
+			int x = (pParticle.m_x + 1)*(screenWidth2);
+			int y = pParticle.m_y*screenWidth2 + screenHeight2;
 
 			screen.setPixel(x, y, red, green, blue);
 
@@ -163,13 +177,13 @@ int main() {
 		}
 		*/
 
+		screen.boxBlur();
+
 		screen.update();
 
 		if (screen.processEvents() == false) {
 			break;
 		}
-
-		SDL_Delay(5);
 
 		std::cout << "FPS: " << framespersecond << std::endl;
 

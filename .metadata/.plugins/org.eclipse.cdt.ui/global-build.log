@@ -1,545 +1,4 @@
-11:11:55 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-../src/Particle.cpp:32:9: error: use of undeclared identifier 'ySpeed'; did you mean 'xSpeed'?
-        m_y += ySpeed;
-               ^~~~~~
-               xSpeed
-../src/Particle.cpp:29:15: note: 'xSpeed' declared here
-        const double xSpeed = (1 + sin(m_x * 0.0001)) * 128;
-                     ^
-1 error generated.
-make: *** [src/Particle.o] Error 1
-11:12:20 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:12:32 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:12:46 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:12:58 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:13:08 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:13:19 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:13:33 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:13:51 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-make: Nothing to be done for `all'.
-11:14:18 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:14:33 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:14:45 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:14:59 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:15:08 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:15:31 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:15:37 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-make: Nothing to be done for `all'.
-11:15:48 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:16:07 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:16:26 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:16:37 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:16:46 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:16:54 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:17:01 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:17:18 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:18:30 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-make: Nothing to be done for `all'.
-11:18:39 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:19:46 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:20:34 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:21:39 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:23:02 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:23:26 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:23:44 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:24:11 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:24:27 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:25:25 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-../src/Particle.cpp:32:25: error: no matching function for call to 'sin'
-        const double xSpeed = (sin() * 100;
-                               ^~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:946:1: note: candidate function template not viable: requires single argument '__lcpp_x', but no arguments were provided
-sin(_A1 __lcpp_x) _NOEXCEPT {return ::sin((double)__lcpp_x);}
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:940:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY long double sin(long double __lcpp_x) _NOEXCEPT {return ::sinl(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:939:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY float       sin(float __lcpp_x) _NOEXCEPT       {return ::sinf(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/math.h:343:15: note: candidate function not viable: requires 1 argument, but 0 were provided
-extern double sin(double);
-              ^
-../src/Particle.cpp:34:25: error: no matching function for call to 'sin'
-        const double ySpeed = (sin() * 100;
-                               ^~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:946:1: note: candidate function template not viable: requires single argument '__lcpp_x', but no arguments were provided
-sin(_A1 __lcpp_x) _NOEXCEPT {return ::sin((double)__lcpp_x);}
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:940:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY long double sin(long double __lcpp_x) _NOEXCEPT {return ::sinl(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:939:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY float       sin(float __lcpp_x) _NOEXCEPT       {return ::sinf(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/math.h:343:15: note: candidate function not viable: requires 1 argument, but 0 were provided
-extern double sin(double);
-              ^
-2 errors generated.
-make: *** [src/Particle.o] Error 1
-11:25:36 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-../src/Particle.cpp:32:25: error: no matching function for call to 'sin'
-        const double xSpeed = (sin()) * 100;
-                               ^~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:946:1: note: candidate function template not viable: requires single argument '__lcpp_x', but no arguments were provided
-sin(_A1 __lcpp_x) _NOEXCEPT {return ::sin((double)__lcpp_x);}
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:940:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY long double sin(long double __lcpp_x) _NOEXCEPT {return ::sinl(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:939:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY float       sin(float __lcpp_x) _NOEXCEPT       {return ::sinf(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/math.h:343:15: note: candidate function not viable: requires 1 argument, but 0 were provided
-extern double sin(double);
-              ^
-../src/Particle.cpp:34:25: error: no matching function for call to 'sin'
-        const double ySpeed = (sin()) * 100;
-                               ^~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:946:1: note: candidate function template not viable: requires single argument '__lcpp_x', but no arguments were provided
-sin(_A1 __lcpp_x) _NOEXCEPT {return ::sin((double)__lcpp_x);}
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:940:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY long double sin(long double __lcpp_x) _NOEXCEPT {return ::sinl(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/math.h:939:46: note: candidate function not viable: requires single argument '__lcpp_x', but no arguments were provided
-inline _LIBCPP_INLINE_VISIBILITY float       sin(float __lcpp_x) _NOEXCEPT       {return ::sinf(__lcpp_x);}
-                                             ^
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/math.h:343:15: note: candidate function not viable: requires 1 argument, but 0 were provided
-extern double sin(double);
-              ^
-2 errors generated.
-make: *** [src/Particle.o] Error 1
-11:25:44 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:26:35 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:26:50 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:26:58 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:27:22 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:27:29 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:27:37 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:27:52 **** Incremental Build of configuration Debug for project SDL Basic ****
+20:02:21 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
@@ -556,7 +15,299 @@ Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-11:28:10 **** Incremental Build of configuration Debug for project SDL Basic ****
+20:02:51 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:03:00 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:03:34 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:03:43 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:03:57 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:04:20 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:04:29 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:05:48 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:06:27 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:06:36 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:09:58 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building file: ../src/Swarm.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Swarm.d" -MT"src/Swarm.o" -o "src/Swarm.o" "../src/Swarm.cpp"
+Finished building: ../src/Swarm.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:10:25 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building file: ../src/Swarm.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Swarm.d" -MT"src/Swarm.o" -o "src/Swarm.o" "../src/Swarm.cpp"
+Finished building: ../src/Swarm.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:12:04 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:13:24 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+make: Nothing to be done for `all'.
+20:15:05 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:16:53 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:17:02 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:17:20 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:17:58 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:18:40 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:18:49 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:19:31 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:20:24 **** Incremental Build of configuration Debug for project SDL Basic ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building target: SDL Basic
+Invoking: MacOS X C++ Linker
+g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
+Finished building target: SDL Basic
+ 
+20:20:36 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
@@ -573,7 +324,7 @@ Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-11:28:22 **** Incremental Build of configuration Debug for project SDL Basic ****
+20:20:50 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
@@ -590,144 +341,12 @@ Invoking: MacOS X C++ Linker
 g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
 Finished building target: SDL Basic
  
-11:28:46 **** Incremental Build of configuration Debug for project SDL Basic ****
+20:23:10 **** Incremental Build of configuration Debug for project SDL Basic ****
 make all 
 Building file: ../src/Particle.cpp
 Invoking: GCC C++ Compiler
 g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
 Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:29:00 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:44:25 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:44:35 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-11:44:51 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:23:02 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:23:29 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:23:48 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:24:29 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Particle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.o" -o "src/Particle.o" "../src/Particle.cpp"
-Finished building: ../src/Particle.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:24:44 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:24:54 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
- 
-Building target: SDL Basic
-Invoking: MacOS X C++ Linker
-g++ -L/opt/local/lib -o "SDL Basic"  ./src/Main.o ./src/Particle.o ./src/Screen.o ./src/Swarm.o   -lSDL2
-Finished building target: SDL Basic
- 
-12:25:03 **** Incremental Build of configuration Debug for project SDL Basic ****
-make all 
-Building file: ../src/Main.cpp
-Invoking: GCC C++ Compiler
-g++ -I/opt/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
-Finished building: ../src/Main.cpp
  
 Building target: SDL Basic
 Invoking: MacOS X C++ Linker
