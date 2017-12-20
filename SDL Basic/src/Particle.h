@@ -12,7 +12,9 @@ namespace betaben {
 
 struct Particle {
 	double m_x;
+	double m_x2;
 	double m_y;
+	double m_y2;
 
 private:
 	double m_speed;

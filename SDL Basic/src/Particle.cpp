@@ -28,7 +28,9 @@ Particle::Particle(): m_x(0), m_y(0){
 void Particle::init(){
 
 	m_x = 0;
+	m_x2 = .001;
 	m_y = 0;
+	m_y2 = 0;
 
 	m_speed = (0.04*rand())/RAND_MAX;
 
@@ -55,13 +57,15 @@ void Particle::update(int interval){
 //			m_ySpeed = -m_ySpeed;
 //	}
 
-	m_direction += interval*.004;
+	m_direction += interval*.0004;
 
 	double xSpeed = m_speed*cos(m_direction);
 	double ySpeed = m_speed*sin(m_direction);
 
 	m_x += xSpeed*interval;
+	m_x2 += xSpeed*interval;
 	m_y += ySpeed*interval;
+	m_y2 += ySpeed*interval;
 
 //	if(m_x < -1 || m_x > 1 || m_y < -1 || m_y > 1){
 //		init();

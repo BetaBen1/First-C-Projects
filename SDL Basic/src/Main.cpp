@@ -13,6 +13,16 @@ using namespace betaben;
 
 #define FRAME_VALUES 10
 
+Particle pParticle;
+int x;
+int x2;
+int y;
+int y2;
+
+unsigned char red;
+unsigned char green;
+unsigned char blue;
+
 // An array to store frame times:
 Uint32 frametimes[FRAME_VALUES];
 
@@ -130,20 +140,23 @@ int main() {
 
 		const Particle * const pParticles = swarm.getParticles();
 
-		unsigned char red = (1 + sin(elapsed * 0.0001)) * 128;
-		unsigned char green = (1 + sin(elapsed * 0.0002)) * 128;
-		unsigned char blue = (1 + sin(elapsed * 0.0003)) * 128;
+		red = (1 + sin(elapsed * 0.0001)) * 128;
+		green = (1 + sin(elapsed * 0.0002)) * 128;
+		blue = (1 + sin(elapsed * 0.0003)) * 128;
 
 //		screen.clear();
 
-		for(int i=0; i<Swarm::NPARTICLES; i++){
+		for(short i=0; i<Swarm::NPARTICLES; i++){
 
-			Particle pParticle = pParticles[i];
+			pParticle = pParticles[i];
 
-			int x = (pParticle.m_x + 1)*(screenWidth2);
-			int y = pParticle.m_y*screenWidth2 + screenHeight2;
+			x = (pParticle.m_x + 1)*(screenWidth2);
+			x = (pParticle.m_x2 + 1)*(screenWidth2);
+			y = pParticle.m_y*screenWidth2 + screenHeight2;
+			y = pParticle.m_y2*screenWidth2 + screenHeight2;
 
 			screen.setPixel(x, y, red, green, blue);
+			screen.setPixel(x2, y2, red, green, blue);
 
 		}
 

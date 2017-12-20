@@ -7,8 +7,22 @@
 #include <SDL.h>
 #include <iostream>
 #include "Screen.h"
+#include "Swarm.h"
 
 namespace betaben {
+
+short redTotal;
+short blueTotal;
+short greenTotal;
+
+int currentX;
+int currentY;
+
+Uint32 color;
+
+Uint8 red;
+Uint8 blue;
+Uint8 green;
 
 Screen::Screen() :
 		m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer1(NULL), m_buffer2(NULL) {
@@ -30,7 +44,7 @@ bool Screen::init() {
 		return 1;
 	}
 
-	m_renderer = SDL_CreateRenderer(m_window, -1, SDL_RENDERER_PRESENTVSYNC);
+	m_renderer = SDL_CreateRenderer(m_window, -1, SDL_RENDERER_ACCELERATED);
 	m_texture = SDL_CreateTexture(m_renderer, SDL_PIXELFORMAT_RGBA8888,
 			SDL_TEXTUREACCESS_STATIC, SCREEN_WIDTH, SCREEN_HEIGHT);
 
@@ -66,24 +80,25 @@ void Screen::boxBlur(){
 	m_buffer2 = temp;
 
 	// Looks at the pixels around it and takes the average of the pixels to create a blur
-	for(int y=0; y<SCREEN_HEIGHT; y++){
-		for(int x=0; x<SCREEN_WIDTH; x++){
 
-			int redTotal = 0;
-			int greenTotal = 0;
-			int blueTotal = 0;
+	for(short y=0; y<SCREEN_HEIGHT; y++){
+		for(short x=0; x<SCREEN_WIDTH; x++){
 
-			for(int row=-1; row<=1; row++){
-				for(int col=-1; col<=1; col++){
-					int currentX = x+col;
-					int currentY = y+row;
+			redTotal = 0;
+			greenTotal = 0;
+			blueTotal = 0;
+
+			for(short row=-1; row<=1; row++){
+				for(short col=-1; col<=1; col++){
+					currentX = x+col;
+					currentY = y+row;
 
 					if(currentX >= 0 && currentX < SCREEN_WIDTH && currentY >=0 && currentY < SCREEN_HEIGHT){
-						Uint32 color = m_buffer2[currentY*SCREEN_WIDTH + currentX];
+						color = m_buffer2[currentY*SCREEN_WIDTH + currentX];
 
-						Uint8 red = color >> 24;
-						Uint8 green = color >> 16;
-						Uint8 blue = color >> 8;
+						red = color >> 24;
+						green = color >> 16;
+						blue = color >> 8;
 
 						redTotal += red;
 						greenTotal += green;
@@ -93,9 +108,9 @@ void Screen::boxBlur(){
 				}
 			}
 
-			Uint8 red = redTotal/9;
-			Uint8 green = greenTotal/9;
-			Uint8 blue = blueTotal/9;
+			red = redTotal/9;
+			green = greenTotal/9;
+			blue = blueTotal/9;
 
 			setPixel(x, y, red, green, blue);
 
@@ -104,23 +119,14 @@ void Screen::boxBlur(){
 
 }
 
-//void Screen::clear(){
-//	memset(m_buffer1, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
-//	memset(m_buffer2, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
-//}
+void Screen::clear(){
+	memset(m_buffer1, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+	//memset(m_buffer2, 0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+}
 
 void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue){
 
-	if(x < 0){
-		return;
-	}
-	else if(x >= SCREEN_WIDTH){
-		return;
-	}
-	else if(y < 0){
-		return;
-	}
-	else if(y >= SCREEN_HEIGHT){
+	if(x < 0 || x >= SCREEN_WIDTH || y < 0 || y >= SCREEN_HEIGHT){
 		return;
 	}
 
